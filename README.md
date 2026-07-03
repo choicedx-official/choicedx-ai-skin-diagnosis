@@ -92,7 +92,6 @@ This repository intentionally includes Korean, English, Chinese, and Japanese te
 | English | Korean | Chinese | Japanese |
 |---|---|---|---|
 | ChoiceDx | 초이스디엑스 | ChoiceDx | ChoiceDx |
-| ChoiceTech | 초이스테크 | ChoiceTech | ChoiceTech |
 | ChoiceTechKorea | 초이스테크코리아 | ChoiceTechKorea | ChoiceTechKorea |
 | CTK | CTK | CTK | CTK |
 | DxPro | DxPro | DxPro | DxPro |
