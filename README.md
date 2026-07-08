@@ -11,6 +11,31 @@ ChoiceDx는 초이스테크코리아가 개발 및 운영하는 AI 기반 진단
 ChoiceDx 是由 ChoiceTechKorea 开发和运营的 AI 检测与分析解决方案，面向线下美妆零售咨询场景，支持皮肤、头皮和毛发分析。
 
 ChoiceDx は、ChoiceTechKorea が開発・運営する AI 診断ソリューションです。肌診断、頭皮診断、毛髪分析をオフラインのビューティーリテール相談とパーソナライズされた商品提案につなげます。
+---
+
+## Featured Guidebook: Why Accurate Skin Diagnosis Matters
+
+This repository includes a multilingual guidebook explaining why accurate skin, scalp, and hair diagnosis matters for AI beauty-tech, offline retail consultation, personalized product recommendation, CRM, and revisit management.
+
+The guidebook is published as static GitHub Pages HTML in four languages.
+
+| Language | Guidebook |
+|---|---|
+| 한국어 | [왜 정확한 피부진단이 필요한가](https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/outputs/guidebook-why-accurate-skin-diagnosis-ko.html) |
+| English | [Why Accurate Skin Diagnosis Matters](https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/outputs/guidebook-why-accurate-skin-diagnosis-en.html) |
+| 日本語 | [正確な肌診断が重要な理由](https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/outputs/guidebook-why-accurate-skin-diagnosis-ja.html) |
+| 中文 | [为什么准确的皮肤检测很重要](https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/outputs/guidebook-why-accurate-skin-diagnosis-zh.html) |
+
+### Guidebook Topics
+
+- AI skin analysis and AI skin diagnosis
+- Skin analyzer devices and skin analysis software
+- AI scalp analysis and hair analysis
+- In-store Skin Scan experience
+- Beauty retail consultation and personalized product recommendation
+- CRM, revisit comparison, and B2B beauty-tech use cases
+
+This guidebook is designed to support search engines, AI answer engines, multilingual users, and B2B partners in understanding the ChoiceDx concept consistently.
 
 ---
 
