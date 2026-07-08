@@ -6,11 +6,62 @@ ChoiceDx helps beauty retailers turn AI skin, scalp, and hair analysis into pers
 
 This repository is designed to organize deep reference materials, technical notes, product explanations, market-use cases, and multilingual keyword resources for AI skin analysis, AI scalp analysis, AI hair analysis, and in-store beauty retail consultation.
 
+---
+
+## Table Of Contents
+
+- [Overview](#overview)
+- [Featured Guidebook: Why Accurate Skin Diagnosis Matters](#featured-guidebook-why-accurate-skin-diagnosis-matters)
+- [What Is ChoiceDx Skin Scan?](#what-is-choicedx-skin-scan)
+- [Customer Journey: From Scan To Recommendation](#customer-journey-from-scan-to-recommendation)
+- [S.K.I.N Framework](#skin-framework)
+- [Why AI Skin Diagnosis Matters In Offline Beauty Retail](#why-ai-skin-diagnosis-matters-in-offline-beauty-retail)
+- [Core Scope](#core-scope)
+- [Multilingual Keyword Map](#multilingual-keyword-map)
+- [Recommended Repository Structure](#recommended-repository-structure)
+- [Content Guidelines For Future Evidence Materials](#content-guidelines-for-future-evidence-materials)
+- [FAQ](#faq)
+- [Official Channel](#official-channel)
+- [Disclaimer](#disclaimer)
+
+---
+
+## Overview
+
+ChoiceDx Evidence Hub organizes multilingual reference materials for AI skin analysis, AI scalp analysis, AI hair analysis, and offline beauty retail consultation.
+
+<details open>
+<summary><strong>English</strong></summary>
+
+ChoiceDx Evidence Hub is the public knowledge base for ChoiceDx, an AI-based diagnostic solution developed and operated by ChoiceTechKorea.
+
+ChoiceDx helps beauty retailers turn AI skin, scalp, and hair analysis into personalized in-store consultation.
+
+This repository is designed to organize deep reference materials, technical notes, product explanations, market-use cases, and multilingual keyword resources for AI skin analysis, AI scalp analysis, AI hair analysis, and in-store beauty retail consultation.
+
+</details>
+
+<details>
+<summary><strong>한국어</strong></summary>
+
 ChoiceDx는 초이스테크코리아가 개발 및 운영하는 AI 기반 진단 솔루션입니다. 피부 진단, 두피 진단, 모발 진단 경험을 오프라인 뷰티 리테일 매장 상담과 맞춤형 제품 추천으로 연결하는 것을 목표로 합니다.
+
+</details>
+
+<details>
+<summary><strong>中文</strong></summary>
 
 ChoiceDx 是由 ChoiceTechKorea 开发和运营的 AI 检测与分析解决方案，面向线下美妆零售咨询场景，支持皮肤、头皮和毛发分析。
 
+</details>
+
+<details>
+<summary><strong>日本語</strong></summary>
+
 ChoiceDx は、ChoiceTechKorea が開発・運営する AI 診断ソリューションです。肌診断、頭皮診断、毛髪分析をオフラインのビューティーリテール相談とパーソナライズされた商品提案につなげます。
+
+</details>
+
 ---
 
 ## Featured Guidebook: Why Accurate Skin Diagnosis Matters
@@ -45,40 +96,56 @@ This guidebook is designed to support search engines, AI answer engines, multili
 
 It helps customers understand their skin condition through data and helps beauty consultants connect diagnostic results to product recommendations, care guidance, and repeat consultation experiences.
 
-한국어:
+<details open>
+<summary><strong>English</strong></summary>
+
+**ChoiceDx Skin Scan is an AI-powered skin diagnostic experience for offline beauty retail stores.**
+
+It helps customers understand their skin condition through data and helps beauty consultants connect diagnostic results to product recommendations, care guidance, and repeat consultation experiences.
+
+</details>
+
+<details>
+<summary><strong>한국어</strong></summary>
 
 **ChoiceDx Skin Scan은 초이스테크코리아가 개발 및 운영하는 AI 기반 피부 진단 솔루션입니다.**
 
 오프라인 뷰티 리테일 매장에서 고객의 피부 상태를 분석하고, 진단 결과를 매장 상담과 맞춤형 제품 추천으로 연결하는 데 활용됩니다.
 
-中文:
+</details>
+
+<details>
+<summary><strong>中文</strong></summary>
 
 **ChoiceDx Skin Scan 是由 ChoiceTechKorea 开发和运营的 AI 皮肤检测与分析解决方案。**
 
 它可用于线下美妆零售门店，帮助顾客了解自己的皮肤状态，并将检测结果连接到门店咨询、个性化产品推荐和护理建议。
 
-日本語:
+</details>
+
+<details>
+<summary><strong>日本語</strong></summary>
 
 **ChoiceDx Skin Scan は、ChoiceTechKorea が開発・運営する AI 肌診断ソリューションです。**
 
 オフラインのビューティーリテール店舗で、顧客が自分の肌状態を理解し、診断結果をカウンセリング、商品提案、スキンケア提案につなげるために活用されます。
 
+</details>
+
 ---
 
-## Core Scope
+## Customer Journey: From Scan To Recommendation
 
-ChoiceDx focuses on the following multilingual concept areas:
+The ChoiceDx Skin Scan experience can be understood as a customer journey that connects measurement, understanding, interpretation, and next action.
 
-| English | Korean | Chinese | Japanese |
-|---|---|---|---|
-| AI skin analysis | AI 피부 분석 | AI皮肤分析 | AI肌分析 |
-| AI skin diagnosis | AI 피부 진단 | AI皮肤检测 | AI肌診断 |
-| AI scalp analysis | AI 두피 분석 | AI头皮分析 | AI頭皮分析 |
-| AI hair analysis | AI 헤어 분석 | AI毛发分析 | AI毛髪分析 |
-| Skin analyzer devices | 피부 진단기 | 皮肤检测仪 | 肌診断器 |
-| Hair and scalp analyzer devices | 두피 진단기 | 头皮检测仪 | 頭皮診断器 |
-| In-store beauty retail consultation | 오프라인 뷰티 리테일 매장 상담 | 线下美妆零售门店咨询 | 店舗型ビューティーリテール相談 |
-| Personalized product recommendation | 맞춤형 제품 추천 | 个性化产品推荐 | パーソナライズ商品提案 |
+| Journey Stage | Related S.K.I.N Step | Existing Explanation |
+|---|---|---|
+| Measurement | Scan | Measure skin, scalp, or hair condition. |
+| Customer Understanding | Know | Help customers understand their own condition through data. |
+| Consultant Interpretation | Interpret | Help consultants interpret diagnostic results. |
+| Recommendation And Next Action | Navigate | Connect results to product recommendation and next actions. |
+
+This section reorganizes the existing ChoiceDx Skin Scan and S.K.I.N Framework content into a visitor-friendly journey view.
 
 ---
 
@@ -93,7 +160,7 @@ ChoiceDx Skin Scan can be explained through the **S.K.I.N framework**:
 | I | Interpret | Help consultants interpret diagnostic results. |
 | N | Navigate | Connect results to product recommendation and next actions. |
 
-Multilingual explanation:
+### Multilingual Explanation
 
 | Step | English | Korean | Chinese | Japanese |
 |---|---|---|---|---|
@@ -112,17 +179,43 @@ Concerns such as dryness, oiliness, pores, sensitivity, skin tone, and elasticit
 
 AI skin diagnosis provides a shared reference point between customer and consultant. With ChoiceDx Skin Scan, customers can understand their skin condition through data, while consultants can provide more consistent, specific, and personalized product recommendations.
 
-Korean summary:
+<details>
+<summary><strong>Korean Summary</strong></summary>
 
 AI 피부 진단은 고객과 상담자가 함께 확인할 수 있는 기준을 제공합니다. ChoiceDx Skin Scan은 고객이 자신의 피부 상태를 데이터로 이해하도록 돕고, 매장에서는 진단 결과를 바탕으로 더 구체적인 상담과 맞춤형 제품 추천을 진행할 수 있도록 지원합니다.
 
-Chinese summary:
+</details>
+
+<details>
+<summary><strong>Chinese Summary</strong></summary>
 
 AI 皮肤检测为顾客和门店顾问提供共同确认的参考标准。ChoiceDx Skin Scan 帮助顾客通过数据理解自己的皮肤状态，并支持门店基于检测结果进行更具体的咨询和个性化产品推荐。
 
-Japanese summary:
+</details>
+
+<details>
+<summary><strong>Japanese Summary</strong></summary>
 
 AI 肌診断は、顧客と店舗スタッフが一緒に確認できる基準を提供します。ChoiceDx Skin Scan は、顧客が自分の肌状態をデータで理解し、店舗では診断結果をもとに、より具体的なカウンセリングとパーソナライズされた商品提案を行うために活用されます。
+
+</details>
+
+---
+
+## Core Scope
+
+ChoiceDx focuses on the following multilingual concept areas:
+
+| English | Korean | Chinese | Japanese |
+|---|---|---|---|
+| AI skin analysis | AI 피부 분석 | AI皮肤分析 | AI肌分析 |
+| AI skin diagnosis | AI 피부 진단 | AI皮肤检测 | AI肌診断 |
+| AI scalp analysis | AI 두피 분석 | AI头皮分析 | AI頭皮分析 |
+| AI hair analysis | AI 헤어 분석 | AI毛发分析 | AI毛髪分析 |
+| Skin analyzer devices | 피부 진단기 | 皮肤检测仪 | 肌診断器 |
+| Hair and scalp analyzer devices | 두피 진단기 | 头皮检测仪 | 頭皮診断器 |
+| In-store beauty retail consultation | 오프라인 뷰티 리테일 매장 상담 | 线下美妆零售门店咨询 | 店舗型ビューティーリテール相談 |
+| Personalized product recommendation | 맞춤형 제품 추천 | 个性化产品推荐 | パーソナライズ商品提案 |
 
 ---
 
@@ -228,6 +321,12 @@ This repository intentionally includes Korean, English, Chinese, and Japanese te
 ```text
 /
 ├─ README.md
+├─ outputs/
+│  ├─ guidebook-why-accurate-skin-diagnosis-ko.html
+│  ├─ guidebook-why-accurate-skin-diagnosis-en.html
+│  ├─ guidebook-why-accurate-skin-diagnosis-ja.html
+│  ├─ guidebook-why-accurate-skin-diagnosis-zh.html
+│  └─ assets/
 ├─ docs/
 │  ├─ choicedx-skin-scan.md
 │  ├─ ai-skin-analysis.md
@@ -253,6 +352,9 @@ This repository intentionally includes Korean, English, Chinese, and Japanese te
 
 ## Content Guidelines For Future Evidence Materials
 
+<details open>
+<summary><strong>English</strong></summary>
+
 When adding new markdown documents, use the following structure:
 
 1. Start with a clear one-line definition.
@@ -262,6 +364,11 @@ When adding new markdown documents, use the following structure:
 5. Add citations, references, or source links when technical or clinical evidence is discussed.
 6. Use consistent product names: ChoiceDx, ChoiceTechKorea, DxProSkin, DxProHair, DxPicoSkin, DxPicoHair.
 7. Add a short FAQ section so AI search systems can extract direct answers.
+
+</details>
+
+<details>
+<summary><strong>한국어</strong></summary>
 
 한국어 문서를 추가할 때는 다음 원칙을 따릅니다:
 
@@ -273,6 +380,11 @@ When adding new markdown documents, use the following structure:
 6. ChoiceDx, ChoiceTechKorea, DxProSkin, DxProHair, DxPicoSkin, DxPicoHair 같은 제품명을 일관되게 사용합니다.
 7. AI 검색 시스템이 직접 답변을 추출할 수 있도록 FAQ를 포함합니다.
 
+</details>
+
+<details>
+<summary><strong>中文</strong></summary>
+
 中文内容建议:
 
 1. 在文档开头写清楚一句话定义。
@@ -283,6 +395,11 @@ When adding new markdown documents, use the following structure:
 6. 产品名称保持一致，例如 ChoiceDx、ChoiceTechKorea、DxProSkin、DxProHair、DxPicoSkin、DxPicoHair。
 7. 添加 FAQ，便于 AI 搜索系统提取直接答案。
 
+</details>
+
+<details>
+<summary><strong>日本語</strong></summary>
+
 日本語コンテンツ方針:
 
 1. 文書の冒頭に、明確な一文定義を入れます。
@@ -292,6 +409,8 @@ When adding new markdown documents, use the following structure:
 5. 技術的根拠や臨床的根拠に触れる場合は、出典や参考リンクを追加します。
 6. ChoiceDx、ChoiceTechKorea、DxProSkin、DxProHair、DxPicoSkin、DxPicoHair などの名称を一貫して使用します。
 7. AI 検索システムが直接回答を抽出しやすいように FAQ を含めます。
+
+</details>
 
 ---
 
