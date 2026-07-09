@@ -13,6 +13,7 @@ This repository is designed to organize deep reference materials, technical note
 - [Overview](#overview)
 - [Featured Guidebook: Why Accurate Skin Diagnosis Matters](#featured-guidebook-why-accurate-skin-diagnosis-matters)
 - [Featured Skin Scan Article](#featured-skin-scan-article)
+- [Featured Trust Article](#featured-trust-article)
 - [What Is ChoiceDx Skin Scan?](#what-is-choicedx-skin-scan)
 - [Customer Journey: From Scan To Recommendation](#customer-journey-from-scan-to-recommendation)
 - [S.K.I.N Framework](#skin-framework)
@@ -111,6 +112,30 @@ The article is published as static GitHub Pages HTML in four languages and uses 
 - How diagnosis results connect to consultation and personalized product recommendation
 - The S.K.I.N framework: Scan, Know, Interpret, Navigate
 - Multilingual SEO keywords for AI skin analysis, skin diagnosis devices, and Skin Scan
+
+---
+
+## Featured Trust Article
+
+This repository includes a follow-up article explaining how **accurate skin diagnosis builds customer trust** in offline beauty retail consultation.
+
+The article focuses on the connection between explainable diagnosis, customer understanding, consultant interpretation, personalized product recommendation, and repeat consultation.
+
+| Language | Article |
+|---|---|
+| 한국어 | [정확한 피부진단이 고객 신뢰를 만드는 방식](https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/outputs/guidebook-accurate-skin-diagnosis-customer-trust-ko.html) |
+| English | [How Accurate Skin Diagnosis Builds Customer Trust](https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/outputs/guidebook-accurate-skin-diagnosis-customer-trust-en.html) |
+| 日本語 | [正確な肌診断が顧客信頼を生み出す仕組み](https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/outputs/guidebook-accurate-skin-diagnosis-customer-trust-ja.html) |
+| 中文 | [准确的皮肤检测如何建立顾客信任](https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/outputs/guidebook-accurate-skin-diagnosis-customer-trust-zh.html) |
+
+### Trust Article Topics
+
+- Why explainable diagnosis matters for customer trust
+- The role of skin diagnosis devices and consultants
+- How AI skin analysis makes product recommendation more persuasive
+- A retail workflow from concern listening to revisit comparison
+- Olive Young Busan Jeonpo Station Skin Scan case in Seomyeon
+- ChoiceDx perspective on beauty retail consultation
 
 ---
 
@@ -350,6 +375,10 @@ This repository intentionally includes Korean, English, Chinese, and Japanese te
 │  ├─ choicedx-skin-scan-ai-skin-diagnosis-en.html
 │  ├─ choicedx-skin-scan-ai-skin-diagnosis-ja.html
 │  ├─ choicedx-skin-scan-ai-skin-diagnosis-zh.html
+│  ├─ guidebook-accurate-skin-diagnosis-customer-trust-ko.html
+│  ├─ guidebook-accurate-skin-diagnosis-customer-trust-en.html
+│  ├─ guidebook-accurate-skin-diagnosis-customer-trust-ja.html
+│  ├─ guidebook-accurate-skin-diagnosis-customer-trust-zh.html
 │  ├─ guidebook-why-accurate-skin-diagnosis-ko.html
 │  ├─ guidebook-why-accurate-skin-diagnosis-en.html
 │  ├─ guidebook-why-accurate-skin-diagnosis-ja.html
