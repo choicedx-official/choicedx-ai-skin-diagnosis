@@ -12,6 +12,7 @@ This repository is designed to organize deep reference materials, technical note
 
 - [Overview](#overview)
 - [Featured Guidebook: Why Accurate Skin Diagnosis Matters](#featured-guidebook-why-accurate-skin-diagnosis-matters)
+- [Featured Skin Scan Article](#featured-skin-scan-article)
 - [What Is ChoiceDx Skin Scan?](#what-is-choicedx-skin-scan)
 - [Customer Journey: From Scan To Recommendation](#customer-journey-from-scan-to-recommendation)
 - [S.K.I.N Framework](#skin-framework)
@@ -87,6 +88,29 @@ The guidebook is published as static GitHub Pages HTML in four languages.
 - CRM, revisit comparison, and B2B beauty-tech use cases
 
 This guidebook is designed to support search engines, AI answer engines, multilingual users, and B2B partners in understanding the ChoiceDx concept consistently.
+
+---
+
+## Featured Skin Scan Article
+
+This repository also includes a multilingual article introducing **ChoiceDx Skin Scan** and explaining how AI skin diagnosis can support in-store beauty consultation.
+
+The article is published as static GitHub Pages HTML in four languages and uses the ChoiceDx Skin Scan hero image asset in `outputs/assets/choicedx_skinscan_oliveyoung.png`.
+
+| Language | Article |
+|---|---|
+| 한국어 | [ChoiceDx Skin Scan이란? AI 피부 진단으로 매장 상담을 바꾸는 방법](https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/outputs/choicedx-skin-scan-ai-skin-diagnosis-ko.html) |
+| English | [What Is ChoiceDx Skin Scan? How AI Skin Diagnosis Changes In-Store Beauty Consultation](https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/outputs/choicedx-skin-scan-ai-skin-diagnosis-en.html) |
+| 日本語 | [ChoiceDx Skin Scanとは？AI肌診断で店舗カウンセリングを変える方法](https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/outputs/choicedx-skin-scan-ai-skin-diagnosis-ja.html) |
+| 中文 | [ChoiceDx Skin Scan 是什么？AI 皮肤检测如何改变门店美妆咨询](https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/outputs/choicedx-skin-scan-ai-skin-diagnosis-zh.html) |
+
+### Skin Scan Article Topics
+
+- What ChoiceDx Skin Scan is
+- Why AI skin diagnosis matters in offline beauty retail
+- How diagnosis results connect to consultation and personalized product recommendation
+- The S.K.I.N framework: Scan, Know, Interpret, Navigate
+- Multilingual SEO keywords for AI skin analysis, skin diagnosis devices, and Skin Scan
 
 ---
 
@@ -322,6 +346,10 @@ This repository intentionally includes Korean, English, Chinese, and Japanese te
 /
 ├─ README.md
 ├─ outputs/
+│  ├─ choicedx-skin-scan-ai-skin-diagnosis-ko.html
+│  ├─ choicedx-skin-scan-ai-skin-diagnosis-en.html
+│  ├─ choicedx-skin-scan-ai-skin-diagnosis-ja.html
+│  ├─ choicedx-skin-scan-ai-skin-diagnosis-zh.html
 │  ├─ guidebook-why-accurate-skin-diagnosis-ko.html
 │  ├─ guidebook-why-accurate-skin-diagnosis-en.html
 │  ├─ guidebook-why-accurate-skin-diagnosis-ja.html
