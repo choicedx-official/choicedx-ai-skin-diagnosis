@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-08-11",
+  "scope": "ChoiceDx live Wix site SEO/GEO hardening",
+  "status": "requires_live_site_application",
+  "priority_fixes": [
+    {
+      "id": "zh-measurement-terminology",
+      "priority": "P0",
+      "url": "https://www.choicedx.com/zh/measurement",
+      "type": "content-terminology",
+      "replacements": [
+        {"from": "杂质", "to": "皮脂"},
+        {"from": "肤质纹", "to": "皮肤纹理"},
+        {"from": "皮肤", "to": "着色", "context": "heading whose paragraph defines skin coloration/discoloration"},
+        {"from": "皮肤弹", "to": "皮肤弹性"},
+        {"from": "水分", "to": "头皮水分", "context": "scalp section heading only"},
+        {"from": "油分", "to": "头皮油分", "context": "scalp section heading only"},
+        {"from": "角蛋白（角质）", "to": "头皮角质", "context": "scalp section heading"},
+        {"from": "油脂过多可能使毛发容易结束、显得油腻或扁塌", "to": "油脂过多可能使头发容易结缕、显得油腻或扁塌"}
+      ]
+    },
+    {
+      "id": "global-alt-superhighrise",
+      "priority": "P0",
+      "scope": "shared Wix image/component",
+      "type": "alt-text",
+      "current": "초고층",
+      "action": "Use empty ALT for decorative images or a literal language-specific image description for meaningful images."
+    },
+    {
+      "id": "measurement-repeated-alt",
+      "priority": "P0",
+      "urls": [
+        "https://www.choicedx.com/measurement",
+        "https://www.choicedx.com/zh/measurement"
+      ],
+      "type": "alt-text",
+      "action": "Remove mechanically repeated keyword-rich ALT. Use empty ALT for decorative images and unique literal descriptions for meaningful images."
+    },
+    {
+      "id": "ko-measurement-corrupted-alt",
+      "priority": "P0",
+      "url": "https://www.choicedx.com/measurement",
+      "type": "encoding",
+      "current": "초이스디엑�스 올리브영 스킨스캔",
+      "target_if_image_matches": "초이스디엑스 올리브영 스킨스캔"
+    },
+    {
+      "id": "ja-dx-self-corrupted-alt",
+      "priority": "P0",
+      "url": "https://www.choicedx.com/ja/product/dx-self",
+      "type": "encoding",
+      "current": "ChoiceDx Dx-Self セルフ�式AI分析キオスク",
+      "target": "ChoiceDx Dx-Self セルフ式AI分析キオスク"
+    },
+    {
+      "id": "product-title-normalization",
+      "priority": "P1",
+      "type": "metadata",
+      "changes": [
+        {
+          "url": "https://www.choicedx.com/product",
+          "target_title": "ChoiceDx 제품 | AI 피부·두피·모발 분석 솔루션"
+        },
+        {
+          "url": "https://www.choicedx.com/en/product",
+          "target_title": "ChoiceDx Products | AI Skin, Scalp & Hair Analysis Systems"
+        },
+        {
+          "url": "https://www.choicedx.com/product/dx-smart",
+          "target_title": "Dx-Smart | ChoiceDx 전문가용 AI 피부·두피·모발 분석기"
+        },
+        {
+          "url": "https://www.choicedx.com/product/dx-prime",
+          "target_title": "Dx-Prime | ChoiceDx 전문가용 AI 피부·두피·모발 분석 시스템"
+        },
+        {
+          "url": "https://www.choicedx.com/product/dx-self",
+          "target_title": "Dx-Self | ChoiceDx 셀프 AI 피부·두피·모발 분석 키오스크",
+          "condition": "Apply if current metadata still uses diagnosis-first wording."
+        }
+      ],
+      "freeze_after_change": true
+    }
+  ],
+  "intent_ownership": {
+    "brand_entity": "home",
+    "ai_skin_analysis": "ai-diagnosis-solution",
+    "analysis_parameters": "measurement",
+    "skin_analyzer": "dx-smart",
+    "scalp_analyzer": "dx-pico",
+    "research_validation": "research",
+    "self_service_analysis": "dx-self",
+    "use_cases": "references"
+  },
+  "definition_of_done": [
+    "No mixed-language or corrupted ALT/metadata on core pages",
+    "Chinese Measurement headings match their paragraphs",
+    "No irrelevant 초고층 ALT remains",
+    "No mechanically repeated keyword-rich ALT on Measurement",
+    "Product metadata is Analysis-first and stable",
+    "One query family has one preferred destination",
+    "ChoiceTech Korea and ChoiceDx entity intent is distinct",
+    "GitHub legacy pages permanently migrate to localized ChoiceDx destinations"
+  ]
+}
