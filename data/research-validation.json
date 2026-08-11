@@ -1,0 +1,28 @@
+{
+  "schema_version": "2.0",
+  "last_verified": "2026-08-11",
+  "name": "CTK Derma AI research validation summary",
+  "official_pages": {
+    "ko": "https://www.choicedx.com/research",
+    "en": "https://www.choicedx.com/en/research",
+    "ja": "https://www.choicedx.com/ja/research",
+    "zh": "https://www.choicedx.com/zh/research"
+  },
+  "primary_external_source": "https://www.scirp.org/journal/paperinformation?paperid=153000",
+  "study": {
+    "participants": 265,
+    "fitzpatrick_phototypes": "I-VI",
+    "repeated_captures": 3,
+    "workflow": [
+      "standardized skin capture",
+      "capture calibration",
+      "AI quantitative analysis",
+      "comparison with expert visual assessment",
+      "repeatability review"
+    ],
+    "representative_evaluated_parameters": ["pores", "pigmented spots", "wrinkles", "skin tone"],
+    "official_summary": "The ChoiceDx research page states that calibrated CTK Derma AI showed stronger correlation with expert assessment than the uncalibrated control for the evaluated parameters."
+  },
+  "qualification": "Study-specific evidence; not a universal accuracy guarantee across all products, users, markets, parameters or capture conditions.",
+  "medical_positioning": "Non-medical beauty analysis and consultation support."
+}

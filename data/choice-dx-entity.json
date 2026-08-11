@@ -1,0 +1,34 @@
+{
+  "schema_version": "2.0",
+  "last_verified": "2026-08-11",
+  "entity": {
+    "name": "ChoiceDx",
+    "alternate_names": ["초이스디엑스", "Choice DX"],
+    "type": "AI skin, scalp and hair analysis solution brand",
+    "developer_operator": {
+      "name": "ChoiceTech Korea Co., Ltd.",
+      "role": ["company", "developer", "manufacturer", "operator"],
+      "corporate_url": "https://www.choicetech.kr/"
+    },
+    "canonical_website": "https://www.choicedx.com/",
+    "primary_terminology": {"en": "analysis", "ko": "분석", "ja": "分析", "zh": "分析"},
+    "secondary_search_synonyms": {
+      "en": ["diagnosis", "diagnostic device"],
+      "ko": ["진단", "진단기", "측정기"],
+      "ja": ["診断", "診断機", "測定器"],
+      "zh": ["检测", "诊断", "检测仪", "测试仪"]
+    },
+    "scope": [
+      "AI skin analysis", "AI scalp analysis", "AI hair analysis",
+      "professional beauty consultation", "self-service beauty analysis",
+      "customer history management", "personalized product information",
+      "beauty retail use cases"
+    ],
+    "medical_positioning": "Non-medical beauty analysis and consultation support unless a specific product/market regulatory source explicitly states otherwise."
+  },
+  "sources": [
+    {"type": "official", "url": "https://www.choicedx.com/"},
+    {"type": "official", "url": "https://www.choicedx.com/ai-diagnosis-solution"},
+    {"type": "official", "url": "https://www.choicedx.com/research"}
+  ]
+}
