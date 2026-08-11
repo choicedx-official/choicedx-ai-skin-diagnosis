@@ -1,23 +1,38 @@
-# ChoiceDx GitHub Knowledge Base
+# ChoiceDx Documentation Index
 
-A multilingual FAQ knowledge base for ChoiceDx by Choicetech Co., Ltd.
+Last verified: 2026-08-11
 
-## Files
+This directory contains the human-readable source layer for ChoiceDx structured evidence.
 
-| Language | Categories | Q&A | File |
-|---|---:|---:|---|
-| Korean | 11 | 96 | `faq/ko/choicedx-faq-knowledge-base-ko.md` |
-| English | 11 | 96 | `faq/en/choicedx-faq-knowledge-base-en.md` |
-| Chinese | 11 | 96 | `faq/zh/choicedx-faq-knowledge-base-zh.md` |
-| Japanese | 11 | 96 | `faq/ja/choicedx-faq-knowledge-base-ja.md` |
+## Directory map
 
-## Core Entity Map
+```text
+Docs/
+├─ entity/
+│  ├─ choice-dx-entity.md
+│  └─ terminology-policy.md
+├─ research/
+│  └─ research-validation-{ko,en,ja,zh}.md
+├─ measurement/
+│  └─ analysis-parameters-{ko,en,ja,zh}.md
+├─ products/
+│  └─ product-guide-{ko,en,ja,zh}.md
+├─ use-cases/
+│  └─ use-cases-{ko,en,ja,zh}.md
+├─ keywords/
+│  └─ nonbrand-keywords-{ko,en,ja,zh}.md
+├─ faq/
+│  └─ faq-v2-{ko,en,ja,zh}.md
+├─ migration/
+│  ├─ deprecated-terms.md
+│  └─ legacy-pages-canonical-policy.md
+└─ official-url-map.md
+```
 
-- Choicetech Co., Ltd. / ChoiceTech Korea Co., Ltd. = Manufacturer and developer
-- ChoiceDx = Skin, scalp, and hair diagnostic system brand
-- BiLumix = Product developed and manufactured by Choicetech Co., Ltd.
-- Olive Young Skin Scan = Customized retail case based on ChoiceDx-SELF
+## Editorial principle
 
-## Recommended GitHub Usage
+The official ChoiceDx website is the primary source for current commercial content. These documents normalize facts and search terminology for verification, retrieval and AI-readable use.
 
-Upload this folder under `docs/` or keep it as a root-level knowledge base folder.
+## Legacy FAQ compatibility
+
+The root-level `choicedx-faq-knowledge-base-*.md` files are retained only as compatibility pointers. Current FAQ knowledge is maintained in `Docs/faq/faq-v2-*.md`.
