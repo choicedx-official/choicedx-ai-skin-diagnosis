@@ -1,0 +1,24 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "ChoiceDx CTK Derma AI Research & Validation Summary",
+  "description": "Structured summary of the CTK Derma AI study framework referenced by ChoiceDx, including 265 participants, Fitzpatrick I-VI and three repeated captures.",
+  "url": "https://www.choicedx.com/en/research",
+  "inLanguage": ["ko", "en", "ja", "zh-CN"],
+  "creator": {
+    "@type": "Organization",
+    "name": "ChoiceTech Korea Co., Ltd.",
+    "url": "https://www.choicetech.kr/"
+  },
+  "publisher": {
+    "@type": "Brand",
+    "name": "ChoiceDx",
+    "url": "https://www.choicedx.com/"
+  },
+  "isBasedOn": "https://www.scirp.org/journal/paperinformation?paperid=153000",
+  "variableMeasured": ["pores", "pigmented spots", "wrinkles", "skin tone"],
+  "measurementTechnique": ["standardized skin capture", "capture calibration", "AI quantitative analysis", "expert visual assessment comparison", "three repeated captures"],
+  "temporalCoverage": "2026",
+  "keywords": ["AI skin analysis accuracy", "skin analysis validation", "skin analysis repeatability", "Fitzpatrick I-VI", "CTK Derma AI"],
+  "license": "https://github.com/choicedx-official/choicedx-ai-skin-diagnosis/blob/main/LICENSE"
+}
