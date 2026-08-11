@@ -1,0 +1,16 @@
+{
+  "schema_version": "2.0",
+  "last_verified": "2026-08-11",
+  "purpose": "Multilingual non-brand search-intent routing for ChoiceDx. This is not a keyword-stuffing list.",
+  "routes": [
+    {"id":"ai_skin_analysis","destination_key":"analysis","ko":["AI 피부 분석","피부 분석","AI 피부 진단"],"en":["AI skin analysis","skin analysis","skin diagnosis"],"ja":["AI肌分析","肌分析","AI肌診断"],"zh":["AI皮肤分析","皮肤分析","AI皮肤检测"]},
+    {"id":"skin_analyzer","destination_key":"dx_smart","ko":["피부 분석기","AI 피부 분석기","전문가용 피부 분석기","피부 진단기","피부 측정기"],"en":["skin analyzer","AI skin analyzer","professional skin analyzer","skin diagnostic device","skin measurement device"],"ja":["肌分析機","AI肌分析機","プロ向け肌分析機","肌診断機","肌測定器"],"zh":["皮肤分析仪","AI皮肤分析仪","专业皮肤分析仪","皮肤检测仪","皮肤测试仪"]},
+    {"id":"analysis_parameters","destination_key":"measurement","ko":["피부 분석 항목","두피 분석 항목","두피 분석"],"en":["skin analysis parameters","scalp analysis parameters","scalp analysis"],"ja":["肌分析項目","頭皮分析項目","頭皮分析"],"zh":["皮肤分析项目","头皮分析项目","头皮分析"]},
+    {"id":"scalp_analyzer","destination_key":"dx_pico","ko":["두피 분석기","AI 두피 분석기","모발 분석기","두피 진단기"],"en":["scalp analyzer","AI scalp analyzer","hair analyzer","scalp diagnostic device"],"ja":["頭皮分析機","AI頭皮分析機","毛髪分析機","頭皮診断機"],"zh":["头皮分析仪","AI头皮分析仪","毛发分析仪","头皮检测仪"]},
+    {"id":"validation","destination_key":"research","ko":["AI 피부 분석 정확도","피부 분석 반복 측정","다양한 피부톤 피부 분석"],"en":["AI skin analysis accuracy","skin analysis repeatability","AI skin analysis diverse skin tones"],"ja":["AI肌分析 精度","肌分析 再現性","AI肌分析 肌色 検証"],"zh":["AI皮肤分析准确性","皮肤分析重复性","AI皮肤分析多肤色验证"]},
+    {"id":"self_service","destination_key":"dx_self","ko":["피부 분석 키오스크","셀프 피부 분석","무인 피부 분석"],"en":["skin analysis kiosk","self-service skin analysis","AI beauty kiosk"],"ja":["肌分析キオスク","セルフ肌分析","無人肌分析"],"zh":["皮肤分析终端","自助皮肤分析","无人皮肤分析"]},
+    {"id":"use_cases","destination_key":"references","ko":["약국 피부 분석","헤어살롱 두피 분석","올리브영 스킨스캔"],"en":["pharmacy skin analysis","hair salon scalp analysis","in-store skin analysis"],"ja":["薬局 肌分析","ヘアサロン 頭皮分析","店舗 肌分析"],"zh":["药店皮肤分析","美发沙龙头皮分析","门店皮肤分析"]}
+  ],
+  "destination_definitions": "See data/official-url-map.json for localized URLs.",
+  "editorial_rule": "Use one preferred official destination per query family; GitHub documents should support that destination rather than compete with it."
+}
