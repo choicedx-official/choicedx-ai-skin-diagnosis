@@ -1,0 +1,106 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.choicetech.kr/#organization",
+      "name": "ChoiceTech Korea Co., Ltd.",
+      "alternateName": ["(주)초이스테크코리아", "Choicetech Co., Ltd."],
+      "url": "https://www.choicetech.kr/",
+      "brand": {"@id": "https://www.choicedx.com/#brand"}
+    },
+    {
+      "@type": "Brand",
+      "@id": "https://www.choicedx.com/#brand",
+      "name": "ChoiceDx",
+      "alternateName": ["초이스디엑스", "Choice DX"],
+      "url": "https://www.choicedx.com/",
+      "sameAs": ["https://github.com/choicedx-official"]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.choicedx.com/#website",
+      "url": "https://www.choicedx.com/",
+      "name": "ChoiceDx",
+      "publisher": {"@id": "https://www.choicetech.kr/#organization"},
+      "about": {"@id": "https://www.choicedx.com/#brand"},
+      "inLanguage": ["ko-KR", "en", "ja", "zh-CN"]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.choicedx.com/ai-diagnosis-solution#webpage",
+      "url": "https://www.choicedx.com/ai-diagnosis-solution",
+      "name": "ChoiceDx AI Skin, Scalp & Hair Analysis Solution",
+      "about": {"@id": "https://www.choicedx.com/#brand"},
+      "isPartOf": {"@id": "https://www.choicedx.com/#website"}
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.choicedx.com/measurement#webpage",
+      "url": "https://www.choicedx.com/measurement",
+      "name": "ChoiceDx Analysis Parameters",
+      "about": {"@id": "https://www.choicedx.com/#brand"},
+      "isPartOf": {"@id": "https://www.choicedx.com/#website"}
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.choicedx.com/research#webpage",
+      "url": "https://www.choicedx.com/research",
+      "name": "ChoiceDx Research & Validation",
+      "about": {"@id": "https://www.choicedx.com/#brand"},
+      "isPartOf": {"@id": "https://www.choicedx.com/#website"}
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.choicedx.com/references#webpage",
+      "url": "https://www.choicedx.com/references",
+      "name": "ChoiceDx Case Studies & References",
+      "about": {"@id": "https://www.choicedx.com/#brand"},
+      "isPartOf": {"@id": "https://www.choicedx.com/#website"}
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.choicedx.com/faq#webpage",
+      "url": "https://www.choicedx.com/faq",
+      "name": "ChoiceDx FAQ",
+      "about": {"@id": "https://www.choicedx.com/#brand"},
+      "isPartOf": {"@id": "https://www.choicedx.com/#website"}
+    },
+    {
+      "@type": "Product",
+      "@id": "https://www.choicedx.com/product/dx-smart#product",
+      "name": "Dx-Smart",
+      "url": "https://www.choicedx.com/product/dx-smart",
+      "category": "Professional AI skin, scalp and hair analyzer",
+      "brand": {"@id": "https://www.choicedx.com/#brand"},
+      "manufacturer": {"@id": "https://www.choicetech.kr/#organization"}
+    },
+    {
+      "@type": "Product",
+      "@id": "https://www.choicedx.com/product/dx-prime#product",
+      "name": "Dx-Prime",
+      "url": "https://www.choicedx.com/product/dx-prime",
+      "category": "Professional wireless skin, scalp and hair analysis system",
+      "brand": {"@id": "https://www.choicedx.com/#brand"},
+      "manufacturer": {"@id": "https://www.choicetech.kr/#organization"}
+    },
+    {
+      "@type": "Product",
+      "@id": "https://www.choicedx.com/product/dx-pico#product",
+      "name": "Dx-Pico",
+      "url": "https://www.choicedx.com/product/dx-pico",
+      "category": "Portable AI skin, scalp and hair analysis device",
+      "brand": {"@id": "https://www.choicedx.com/#brand"},
+      "manufacturer": {"@id": "https://www.choicetech.kr/#organization"}
+    },
+    {
+      "@type": "Product",
+      "@id": "https://www.choicedx.com/product/dx-self#product",
+      "name": "Dx-Self",
+      "url": "https://www.choicedx.com/product/dx-self",
+      "category": "Self-service AI skin analysis kiosk",
+      "brand": {"@id": "https://www.choicedx.com/#brand"},
+      "manufacturer": {"@id": "https://www.choicetech.kr/#organization"}
+    }
+  ]
+}
