@@ -1,0 +1,35 @@
+{
+  "schema_version": "2.0",
+  "last_verified": "2026-08-11",
+  "canonical_question_count_per_language": 31,
+  "canonical_documents": {
+    "ko": "Docs/faq/faq-v2-ko.md",
+    "en": "Docs/faq/faq-v2-en.md",
+    "ja": "Docs/faq/faq-v2-ja.md",
+    "zh": "Docs/faq/faq-v2-zh.md"
+  },
+  "official_faq_pages": {
+    "ko": "https://www.choicedx.com/faq",
+    "en": "https://www.choicedx.com/en/faq",
+    "ja": "https://www.choicedx.com/ja/faq",
+    "zh": "https://www.choicedx.com/zh/faq"
+  },
+  "categories": [
+    {"id":"entity","question_ids":[1,2,3,4],"topics":["ChoiceDx definition","ChoiceTech Korea relationship","medical positioning","Skin Scan"]},
+    {"id":"analysis","question_ids":[5,6,7,8,9,10],"topics":["AI skin analysis","parameters","scalp/hair analysis","results","hardware vs software","capture conditions"]},
+    {"id":"research","question_ids":[11,12,13,14,15],"topics":["validation","265 participants","Fitzpatrick I-VI","3x repeated captures","study parameters"]},
+    {"id":"products","question_ids":[16,17,18,19,20,21,22],"topics":["Dx-Smart","Dx-Prime","Dx-Pico","Dx-Self","ChoiceDx Pro Skin","DxPro Skin 2","DxPro Hair 2"]},
+    {"id":"use_cases","question_ids":[23,24,25,26],"topics":["pharmacy","hair salon","aesthetics","self-service"]},
+    {"id":"customer_data","question_ids":[27,28,29],"topics":["customer history","product information/recommendation","one-million-plus operational measurement experience"]},
+    {"id":"operations","question_ids":[30,31],"topics":["market differences","inquiry"]}
+  ],
+  "canonical_facts": {
+    "entity": "ChoiceDx is the AI skin, scalp and hair analysis solution brand developed and operated by ChoiceTech Korea.",
+    "study_participants": 265,
+    "fitzpatrick": "I-VI",
+    "repeated_captures": 3,
+    "operational_measurement_experience_korea": ">1,000,000",
+    "medical_positioning": "Non-medical beauty analysis and consultation support."
+  },
+  "note": "Full multilingual question-and-answer text is maintained in the canonical Markdown documents. Historical 96-question files are deprecated compatibility paths."
+}
