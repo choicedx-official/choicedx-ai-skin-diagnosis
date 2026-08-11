@@ -23,9 +23,11 @@ FAQ v2 preserves high-value non-brand intents while making each answer easier fo
 
 ## Compatibility paths
 
-To avoid breaking existing GitHub links, v2 content is duplicated to:
+To avoid breaking existing GitHub links, compatibility pointers are maintained at:
 - `Docs/choicedx-faq-knowledge-base-<lang>.md`
 - `Docs/faq/<lang>/choicedx-faq-knowledge-base-<lang>.md`
+
+These legacy paths point users and retrieval systems to the current v2 document instead of maintaining duplicate FAQ bodies.
 
 The canonical editing source is always:
 - `Docs/faq/faq-v2-<lang>.md`
@@ -34,6 +36,6 @@ The canonical editing source is always:
 
 When changing a canonical FAQ:
 1. edit `faq-v2-<lang>.md`;
-2. mirror to compatibility copies;
-3. update `data/faq-core.json`;
+2. update `data/faq-core.json`;
+3. verify compatibility pointers still target the current canonical file;
 4. update `CHANGELOG.md`.
