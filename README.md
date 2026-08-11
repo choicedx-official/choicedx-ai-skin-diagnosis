@@ -16,14 +16,14 @@ It is **not intended to replace or duplicate the ChoiceDx commercial website**. 
 
 This repository focuses on:
 
-- canonical entity definitions;
+- canonical entity definitions and entity disambiguation;
 - research and validation summaries;
 - analysis-parameter terminology;
 - product fact sheets;
 - use-case taxonomy;
 - multilingual non-brand search terminology;
 - canonical FAQ data;
-- official URL mapping;
+- official URL and intent mapping;
 - source hierarchy and change history;
 - machine-readable JSON / JSON-LD.
 
@@ -42,9 +42,12 @@ This repository focuses on:
 | Non-brand keyword map | [KO](Docs/keywords/nonbrand-keywords-ko.md) | [EN](Docs/keywords/nonbrand-keywords-en.md) | [JA](Docs/keywords/nonbrand-keywords-ja.md) | [ZH](Docs/keywords/nonbrand-keywords-zh.md) |
 | Canonical FAQ v2 | [KO](Docs/faq/faq-v2-ko.md) | [EN](Docs/faq/faq-v2-en.md) | [JA](Docs/faq/faq-v2-ja.md) | [ZH](Docs/faq/faq-v2-zh.md) |
 
+Entity disambiguation: [`Docs/entity/entity-disambiguation.md`](Docs/entity/entity-disambiguation.md)
+
 ### Machine-readable
 
 - [`data/choice-dx-entity.json`](data/choice-dx-entity.json)
+- [`data/entity-resolution.json`](data/entity-resolution.json)
 - [`data/official-url-map.json`](data/official-url-map.json)
 - [`data/research-validation.json`](data/research-validation.json)
 - [`data/analysis-parameters.json`](data/analysis-parameters.json)
@@ -52,6 +55,7 @@ This repository focuses on:
 - [`data/nonbrand-keyword-map.json`](data/nonbrand-keyword-map.json)
 - [`data/faq-core.json`](data/faq-core.json)
 - [`data/schema/choice-dx-brand.jsonld`](data/schema/choice-dx-brand.jsonld)
+- [`data/schema/choice-dx-knowledge-graph.jsonld`](data/schema/choice-dx-knowledge-graph.jsonld)
 - [`data/schema/research-dataset.jsonld`](data/schema/research-dataset.jsonld)
 
 ---
@@ -86,9 +90,9 @@ Company / Developer / Manufacturer / Operator
         └─ Retail / pharmacy / salon / beauty use cases
 ```
 
-**Non-brand skin/scalp analysis intent should resolve primarily to ChoiceDx official pages**, while corporate/company intent should resolve to ChoiceTech Korea.
+**Non-brand skin/scalp/hair analysis intent should resolve primarily to ChoiceDx official pages**, while corporate/company/manufacturer intent should resolve to ChoiceTech Korea.
 
-See: [`Docs/entity/choice-dx-entity.md`](Docs/entity/choice-dx-entity.md)
+See: [`Docs/entity/choice-dx-entity.md`](Docs/entity/choice-dx-entity.md) and [`Docs/entity/entity-disambiguation.md`](Docs/entity/entity-disambiguation.md)
 
 ---
 
@@ -110,7 +114,7 @@ ChoiceDx's current official terminology uses **Analysis** as the primary product
 | 皮肤分析 | 皮肤检测 / 皮肤诊断 |
 | 头皮分析 | 头皮检测 / 头皮诊断 |
 
-Secondary terms may appear in FAQ and keyword datasets because users search for them. They should not replace the canonical entity definition.
+Secondary terms may appear in FAQ and keyword datasets because users search for them. They should not replace the canonical entity definition or imply medical diagnosis.
 
 See: [`Docs/entity/terminology-policy.md`](Docs/entity/terminology-policy.md)
 
@@ -122,15 +126,15 @@ To reduce keyword cannibalization, each major non-brand intent has one preferred
 
 | Search intent | Preferred official page |
 |---|---|
-| AI skin analysis / AI 피부 분석 / AI肌分析 / AI皮肤分析 | `https://www.choicedx.com/en/ai-diagnosis-solution` and localized equivalents |
-| skin/scalp analysis parameters | `https://www.choicedx.com/en/measurement` and localized equivalents |
-| skin analyzer / 피부 분석기 / 肌分析機 / 皮肤分析仪 | `https://www.choicedx.com/en/product/dx-smart` and localized equivalents |
-| scalp analyzer / 두피 분석기 / 頭皮分析機 / 头皮分析仪 | `https://www.choicedx.com/en/product/dx-pico` and localized equivalents |
-| skin-analysis accuracy / validation / repeatability | `https://www.choicedx.com/en/research` and localized equivalents |
-| self-service skin analysis kiosk | `https://www.choicedx.com/en/product/dx-self` and localized equivalents |
-| retail / pharmacy / salon analysis use cases | `https://www.choicedx.com/en/references` and localized equivalents |
+| AI skin analysis / AI 피부 분석 / AI肌分析 / AI皮肤分析 | localized AI Analysis Solution |
+| skin/scalp analysis parameters | localized Measurement page |
+| skin analyzer / 피부 분석기 / 肌分析機 / 皮肤分析仪 | localized Dx-Smart page |
+| scalp analyzer / 두피 분석기 / 頭皮分析機 / 头皮分析仪 | localized Dx-Pico page |
+| skin-analysis accuracy / validation / repeatability | localized Research page |
+| self-service skin analysis kiosk | localized Dx-Self page |
+| retail / pharmacy / salon analysis use cases | localized References page |
 
-See complete multilingual map: [`Docs/official-url-map.md`](Docs/official-url-map.md)
+The full KO / EN / JA / ZH route table is maintained in [`data/entity-resolution.json`](data/entity-resolution.json), [`data/official-url-map.json`](data/official-url-map.json) and [`Docs/keywords/`](Docs/keywords/).
 
 ---
 
@@ -201,13 +205,14 @@ See [`SOURCE_POLICY.md`](SOURCE_POLICY.md).
 
 ---
 
-## Content Ownership & Canonical Policy
+## Content Ownership & Migration Policy
 
 - **ChoiceDx.com is the primary owned-content domain.**
 - GitHub should not create a second commercial article competing for the same query.
-- GitHub Pages in this renewal are **evidence indexes**, not duplicated marketing landing pages.
-- When a legacy GitHub Page materially duplicates an official ChoiceDx page, the recommended migration is `noindex,follow` plus a canonical link to the closest live official page.
-- Do not canonicalize to a URL that does not exist.
+- GitHub Pages evidence indexes provide unique source navigation rather than duplicate commercial landing copy.
+- Historical GitHub Pages with a clear current replacement use an **instant 0-second meta-refresh migration** and matching `rel="canonical"` to the closest existing localized ChoiceDx page.
+- Legacy redirect destinations are language-matched and topic-specific.
+- Do not canonicalize or redirect to a URL that does not exist.
 
 See [`Docs/migration/legacy-pages-canonical-policy.md`](Docs/migration/legacy-pages-canonical-policy.md).
 
@@ -223,9 +228,9 @@ Product availability, features, supported languages, analysis items, licensing a
 
 ## AI Discovery Files
 
-- [`llms.txt`](llms.txt) — concise source map for AI crawlers and agents.
+- [`llms.txt`](llms.txt) — concise source and entity-resolution map for AI crawlers and agents.
 - [`llms-full.txt`](llms-full.txt) — expanded factual context.
-- [`sitemap.xml`](sitemap.xml) — focused sitemap for the new GitHub Pages evidence indexes.
+- [`sitemap.xml`](sitemap.xml) — focused sitemap for GitHub Pages evidence indexes.
 
 These files are provided as machine-readable discovery aids. They **do not guarantee** crawling, ranking or inclusion in an AI answer.
 
