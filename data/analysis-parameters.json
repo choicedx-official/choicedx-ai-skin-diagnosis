@@ -1,0 +1,44 @@
+{
+  "schema_version": "2.0",
+  "last_verified": "2026-08-11",
+  "official_pages": {
+    "ko": "https://www.choicedx.com/measurement",
+    "en": "https://www.choicedx.com/en/measurement",
+    "ja": "https://www.choicedx.com/ja/measurement",
+    "zh": "https://www.choicedx.com/zh/measurement"
+  },
+  "official_operational_claim": {
+    "value": ">1,000,000",
+    "scope": "cumulative measurement-operation experience in Korea",
+    "source": "https://www.choicedx.com/measurement",
+    "note": "Operational-experience claim; not research participant count and not an accuracy metric."
+  },
+  "skin_parameters": [
+    {"id":"moisture","ko":"수분","en":"Moisture","ja":"水分","zh":"水分"},
+    {"id":"oiliness","ko":"유분","en":"Oiliness","ja":"油分","zh":"油分"},
+    {"id":"wrinkles","ko":"주름","en":"Wrinkles","ja":"シワ","zh":"皱纹"},
+    {"id":"sebum","ko":"피지","en":"Sebum","ja":"皮脂","zh":"皮脂"},
+    {"id":"pores","ko":"모공","en":"Pores","ja":"毛穴","zh":"毛孔"},
+    {"id":"keratin","ko":"각질","en":"Keratin / flakes","ja":"角質","zh":"角质 / 起屑"},
+    {"id":"spots","ko":"기미·잡티","en":"Spots / blemishes","ja":"シミ・スポット","zh":"色斑 / 斑点"},
+    {"id":"pigmentation","ko":"색소침착","en":"Pigmentation","ja":"色素沈着","zh":"色素沉着"},
+    {"id":"dark_circles","ko":"다크서클","en":"Dark circles","ja":"クマ","zh":"黑眼圈"},
+    {"id":"radiance","ko":"광채","en":"Radiance","ja":"ツヤ・輝き","zh":"光泽度"},
+    {"id":"redness","ko":"홍조·민감도","en":"Redness / sensitivity","ja":"赤み・敏感度","zh":"泛红 / 敏感度"},
+    {"id":"skin_tone","ko":"피부색·피부톤","en":"Skin tone","ja":"肌色・肌トーン","zh":"肤色 / 肤色调"},
+    {"id":"texture","ko":"피부결","en":"Skin texture","ja":"肌キメ・質感","zh":"皮肤纹理"},
+    {"id":"discoloration","ko":"착색","en":"Discoloration","ja":"色むら・着色","zh":"局部着色 / 色差"},
+    {"id":"elasticity","ko":"탄력 관련 특성","en":"Elasticity-related characteristics","ja":"弾力関連特性","zh":"弹性相关特征"}
+  ],
+  "scalp_hair_parameters": [
+    {"id":"scalp_moisture","ko":"두피 수분","en":"Scalp moisture","ja":"頭皮水分","zh":"头皮水分"},
+    {"id":"scalp_oiliness","ko":"두피 유분","en":"Scalp oiliness","ja":"頭皮油分","zh":"头皮油分"},
+    {"id":"scalp_sebum","ko":"두피 피지","en":"Scalp sebum","ja":"頭皮皮脂","zh":"头皮皮脂"},
+    {"id":"scalp_flakes","ko":"두피 각질","en":"Scalp flakes","ja":"頭皮角質・フケ傾向","zh":"头皮角质 / 起屑"},
+    {"id":"scalp_sensitivity","ko":"두피 민감도","en":"Scalp sensitivity","ja":"頭皮敏感度","zh":"头皮敏感度"},
+    {"id":"hair_density","ko":"모발 밀도","en":"Hair density","ja":"毛髪密度","zh":"毛发密度"},
+    {"id":"hair_loss_visible","ko":"탈모 관련 가시적 특성","en":"Hair-loss-related visible characteristics","ja":"脱毛関連の可視的特性","zh":"脱发相关可视特征"},
+    {"id":"overall_scalp","ko":"전반적인 두피·모발 상태","en":"Overall scalp & hair condition","ja":"総合的な頭皮・毛髪状態","zh":"整体头皮与毛发状态"}
+  ],
+  "availability_note": "Concept library across ChoiceDx content. Actual parameters vary by device, software configuration, license and market."
+}
