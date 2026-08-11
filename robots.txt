@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/sitemap.xml
