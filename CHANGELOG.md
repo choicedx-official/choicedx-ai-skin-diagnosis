@@ -1,5 +1,23 @@
 # ChoiceDx Knowledge Hub Changelog
 
+## 2026-08-11 — v2.1 SEO/GEO Hardening
+
+### Entity & GEO
+- Added `data/entity-resolution.json` to distinguish ChoiceTech Korea corporate/manufacturer intent from ChoiceDx AI analysis intent.
+- Added `Docs/entity/entity-disambiguation.md` for human-readable entity resolution.
+- Added connected JSON-LD knowledge graph linking ChoiceTech Korea → ChoiceDx → website → official hubs → Dx-Smart / Dx-Prime / Dx-Pico / Dx-Self.
+- Expanded `llms.txt` with preferred multilingual non-brand destinations and canonical entity rules.
+
+### Legacy URL migration
+- Upgraded 28 historical GitHub Pages from `noindex,follow + canonical` notices to **instant 0-second meta-refresh migrations** plus matching canonical URLs.
+- Kept each migration destination language-matched: KO → KO, EN → EN, JA → JA, ZH → ZH.
+- Preserved visible fallback links for accessibility and browser compatibility.
+- Updated migration policy to prevent conflicting `noindex`, redirect and canonical signals.
+
+### Retrieval quality
+- Updated the machine-readable data index to include entity-resolution and connected knowledge-graph files.
+- Reinforced the rule that broad AI skin/scalp/hair analysis intent belongs to ChoiceDx, while company/manufacturer intent belongs to ChoiceTech Korea.
+
 ## 2026-08-11 — v2.0 Renewal
 
 ### Architecture
@@ -31,4 +49,4 @@
 ### Pages & Crawling
 - Added unique GitHub evidence-index pages rather than new duplicate commercial articles.
 - Added focused sitemap, robots and AI-discovery files.
-- Defined a legacy page migration policy using `noindex,follow` plus canonical links to existing ChoiceDx official pages.
+- Established explicit migration mappings from legacy GitHub Pages to current ChoiceDx official pages.
