@@ -1,0 +1,59 @@
+{
+  "schema_version": "2.0",
+  "last_verified": "2026-08-11",
+  "products": [
+    {
+      "name": "Dx-Smart",
+      "type": "compact professional skin/scalp/hair analyzer",
+      "official_urls": {"ko":"https://www.choicedx.com/product/dx-smart","en":"https://www.choicedx.com/en/product/dx-smart","ja":"https://www.choicedx.com/ja/product/dx-smart","zh":"https://www.choicedx.com/zh/product/dx-smart"},
+      "official_page_summary": {"skin_parameters_up_to":8,"scalp_hair_metrics_up_to":6,"skin_observation_up_to":"20x","scalp_observation_up_to":"50x"},
+      "preferred_nonbrand_intents": ["skin analyzer","AI skin analyzer","professional skin analyzer"]
+    },
+    {
+      "name": "Dx-Prime",
+      "type": "premium wireless professional skin/scalp/hair analysis system",
+      "official_urls": {"ko":"https://www.choicedx.com/product/dx-prime","en":"https://www.choicedx.com/en/product/dx-prime","ja":"https://www.choicedx.com/ja/product/dx-prime","zh":"https://www.choicedx.com/zh/product/dx-prime"},
+      "official_page_summary": {"skin_parameters_up_to":9,"scalp_hair_metrics_up_to":6,"skin_observation_up_to":"20x","scalp_observation_up_to":"50x"},
+      "preferred_nonbrand_intents": ["professional skin analysis system","wireless skin analyzer","aesthetic skin analyzer"]
+    },
+    {
+      "name": "Dx-Pico",
+      "type": "portable/mobile professional skin/scalp/hair analyzer",
+      "official_urls": {"ko":"https://www.choicedx.com/product/dx-pico","en":"https://www.choicedx.com/en/product/dx-pico","ja":"https://www.choicedx.com/ja/product/dx-pico","zh":"https://www.choicedx.com/zh/product/dx-pico"},
+      "official_page_summary": {"skin_parameters":5,"scalp_hair_metrics":6},
+      "preferred_nonbrand_intents": ["scalp analyzer","portable scalp analyzer","hair analyzer"]
+    },
+    {
+      "name": "Dx-Self",
+      "type": "self-service AI skin/scalp/hair analysis kiosk",
+      "official_urls": {"ko":"https://www.choicedx.com/product/dx-self","en":"https://www.choicedx.com/en/product/dx-self","ja":"https://www.choicedx.com/ja/product/dx-self","zh":"https://www.choicedx.com/zh/product/dx-self"},
+      "official_page_summary": {"skin_parameters_up_to":8,"scalp_hair_metrics_up_to":6},
+      "preferred_nonbrand_intents": ["skin analysis kiosk","self-service skin analysis","AI beauty kiosk"]
+    },
+    {
+      "name": "ChoiceDx Pro Skin",
+      "type": "professional AI skin analysis platform",
+      "official_urls": {"ko":"https://www.choicedx.com/ai-diagnosis-solution","en":"https://www.choicedx.com/en/ai-diagnosis-solution","ja":"https://www.choicedx.com/ja/ai-diagnosis-solution","zh":"https://www.choicedx.com/zh/ai-diagnosis-solution"},
+      "official_page_summary": {"automatic_skin_parameters":["moisture","oil","pores","spots","wrinkles","sebum","keratin","sensitivity"],"platform_context":["professional consultation","personalized product recommendations","customer management"]}
+    },
+    {
+      "name": "ChoiceDx Pro Hair",
+      "type": "professional AI scalp and hair analysis platform",
+      "official_urls": {"ko":"https://www.choicedx.com/ai-diagnosis-solution","en":"https://www.choicedx.com/en/ai-diagnosis-solution","ja":"https://www.choicedx.com/ja/ai-diagnosis-solution","zh":"https://www.choicedx.com/zh/ai-diagnosis-solution"},
+      "official_page_summary": {"hardware_families":["Smart","Prime","Pico"],"platform_context":["scalp/hair analysis","customer history","professional consultation"]}
+    },
+    {
+      "name": "DxPro Skin 2",
+      "type": "second-generation professional AI skin analysis system",
+      "release_url": "https://www.choicedx.com/post/dxpro-skin-2-ai-skin-analysis-launch",
+      "official_release_summary": {"company_reported_performance_improvement":">20% vs prior company system","qualification":"Company-reported comparative performance improvement, not a universal absolute accuracy guarantee.","features":["skin-type-specific refinement","scoring","custom branding","30 languages including Arabic and Hebrew"]}
+    },
+    {
+      "name": "DxPro Hair 2",
+      "type": "professional mobile AI scalp and hair analysis system",
+      "release_urls": {"ko":"https://www.choicedx.com/post/dxpro-hair-2-ai-scalp-hair-analysis","en":"https://www.choicedx.com/en/post/dxpro-hair-2-ai-scalp-hair-analysis-1","ja":"https://www.choicedx.com/ja/post/dxpro-hair-2-ai-scalp-hair-analysis-2","zh":"https://www.choicedx.com/zh/post/dxpro-hair-2-ai-scalp-hair-analysis-3"},
+      "official_release_summary": {"features":["AI hair-loss pattern analysis","automated target-area capture","200x proprietary micro lens","scoring","custom branding","30 languages including Arabic and Hebrew"]}
+    }
+  ],
+  "availability_note": "Features, parameter counts, languages, licenses and market availability can change; current product pages are authoritative."
+}
