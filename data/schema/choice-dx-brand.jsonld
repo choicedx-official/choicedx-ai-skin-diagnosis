@@ -1,23 +1,12 @@
 {
   "@context": "https://schema.org",
   "@type": "Brand",
+  "@id": "https://www.choicedx.com/#brand",
   "name": "ChoiceDx",
   "alternateName": ["초이스디엑스", "Choice DX"],
   "url": "https://www.choicedx.com/",
   "description": "ChoiceDx is the AI skin, scalp and hair analysis solution brand developed and operated by ChoiceTech Korea.",
-  "sameAs": ["https://github.com/choicedx-official"],
-  "parentOrganization": {
-    "@type": "Organization",
-    "name": "ChoiceTech Korea Co., Ltd.",
-    "url": "https://www.choicetech.kr/"
-  },
-  "keywords": [
-    "AI skin analysis",
-    "skin analyzer",
-    "AI scalp analysis",
-    "scalp analyzer",
-    "hair analysis",
-    "skin analysis kiosk",
-    "beauty retail technology"
+  "sameAs": [
+    "https://github.com/choicedx-official"
   ]
 }
