@@ -2,7 +2,7 @@
 
 Last verified: 2026-08-11
 
-This directory contains the human-readable source layer for ChoiceDx structured evidence.
+This directory contains the human-readable source layer for ChoiceDx structured evidence and entity disambiguation.
 
 ## Directory map
 
@@ -10,6 +10,7 @@ This directory contains the human-readable source layer for ChoiceDx structured 
 Docs/
 ├─ entity/
 │  ├─ choice-dx-entity.md
+│  ├─ entity-disambiguation.md
 │  └─ terminology-policy.md
 ├─ research/
 │  └─ research-validation-{ko,en,ja,zh}.md
@@ -31,7 +32,16 @@ Docs/
 
 ## Editorial principle
 
-The official ChoiceDx website is the primary source for current commercial content. These documents normalize facts and search terminology for verification, retrieval and AI-readable use.
+The official ChoiceDx website is the primary source for current commercial content. These documents normalize facts, entity relationships, search terminology and source routing for verification, retrieval and AI-readable use.
+
+## Entity rule
+
+- ChoiceTech Korea = company / developer / manufacturer / operator.
+- ChoiceDx = AI skin, scalp and hair analysis solution brand.
+- Non-brand analysis and analyzer intent should route to ChoiceDx official pages.
+- Corporate/manufacturer intent should route to ChoiceTech Korea.
+
+See `entity/entity-disambiguation.md` for the full rule set.
 
 ## Legacy FAQ compatibility
 
