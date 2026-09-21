@@ -117,7 +117,7 @@ ChoiceDx Pro Skin: Professional AI skin analysis platform. Official solution pag
 
 ChoiceDx Pro Hair: Professional AI scalp/hair analysis platform connected with supported Smart, Prime and Pico systems.
 
-DxPro Skin 2: 2026 second-generation professional AI skin analysis system. ChoiceTech Korea reports more than 20% analysis-performance improvement versus its prior system after skin-type-specific refinements. This is a company-reported comparative improvement, not a universal absolute accuracy guarantee. The release also describes scoring, custom branding and 30 languages including Arabic and Hebrew.
+DxPro Skin 2: 2026 second-generation professional AI skin analysis system. ChoiceTech Korea reports at least 20% analysis-performance improvement versus its prior system after skin-type-specific refinements. This is a company-reported comparative improvement, not a universal absolute accuracy guarantee. The release also describes scoring, custom branding and 30 languages including Arabic and Hebrew.
 
 DxPro Hair 2: 2026 professional mobile AI scalp/hair analysis system. Official release describes AI hair-loss pattern analysis, automated target-area capture, proprietary 200x micro lens, scoring, custom branding and 30 languages including Arabic and Hebrew.
 

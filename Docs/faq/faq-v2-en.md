@@ -85,7 +85,7 @@ Dx-Self is a self-service AI analysis kiosk that allows users to analyze skin, s
 ChoiceDx Pro Skin is a professional AI skin-analysis platform connected with supported hardware. The official solution page describes automatic analysis of eight key skin parameters—moisture, oil, pores, spots, wrinkles, sebum, keratin and sensitivity—plus consultation and customer-management workflows.
 
 ### Q21. What does the 20% improvement claim for DxPro Skin 2 mean?
-ChoiceTech Korea reports more than 20% analysis-performance improvement versus its prior system after skin-type-specific refinements. The official release states that this is a company-measured comparative improvement, not an absolute accuracy guarantee for every user or environment.
+ChoiceTech Korea reports at least 20% analysis-performance improvement versus its prior system after skin-type-specific refinements. The official release states that this is a company-measured comparative improvement, not an absolute accuracy guarantee for every user or environment.
 
 ### Q22. What are the key features of DxPro Hair 2?
 The official release describes AI-powered hair-loss pattern analysis, automated target-area capture workflow, a proprietary 200× micro lens, intuitive scoring, custom branding and 30 language options including Arabic and Hebrew.

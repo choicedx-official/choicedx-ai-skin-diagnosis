@@ -59,7 +59,7 @@ Official page: https://www.choicedx.com/en/ai-diagnosis-solution
 
 DxPro Skin 2 is a **second-generation professional AI skin analysis system** announced in 2026. The official release describes more skin-type-specific analysis, improvements to skin group, pigmentation and sensitivity workflows, expanded sensitivity analysis, score-based results, custom branding and 30 languages including Arabic and Hebrew.
 
-ChoiceTech Korea reports **more than 20% analysis-performance improvement versus its prior system** after the stated refinements. This is a company-measured comparative improvement, not an absolute accuracy guarantee for every user or environment.
+ChoiceTech Korea reports **at least 20% analysis-performance improvement versus its prior system** after the stated refinements. This is a company-measured comparative improvement, not an absolute accuracy guarantee for every user or environment.
 
 Primary release reference: https://www.choicedx.com/post/dxpro-skin-2-ai-skin-analysis-launch
 

@@ -9,6 +9,8 @@
   `en-US`. Add matching `lang` metadata to all 32 localized Markdown sources.
 - Refresh verified hardware counts in product guides, FAQ v2, product JSON and
   `llms-full.txt`: Smart 10/9, Prime 10/9, Pico 10/10, Self 9/8 (English source).
+- Match the official Skin 2 release threshold: English and structured summaries
+  say at least 20% (>=20%), not more than 20% (>20%), versus the prior company system.
 - Preserve the software-specific eight-parameter Pro Skin description. Attribute
   Smart magnification to the Korean source and flag differing Japanese/Chinese
   official values without inventing a universal replacement specification.
