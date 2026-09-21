@@ -1,6 +1,7 @@
 ---
 title: ChoiceDx FAQ Knowledge Base — Korean compatibility path
 language: ko-KR
+lang: ko-KR
 status: deprecated-compatibility-path
 canonical_document: ../faq-v2-ko.md
 ---

@@ -1,6 +1,7 @@
 ---
 title: ChoiceDx 분석 항목 가이드
 language: ko-KR
+lang: ko-KR
 last_verified: 2026-08-11
 canonical_source: https://www.choicedx.com/measurement
 ---

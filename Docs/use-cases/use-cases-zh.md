@@ -1,6 +1,7 @@
 ---
 title: ChoiceDx 应用环境与案例指南
 language: zh-CN
+lang: zh-CN
 last_verified: 2026-08-11
 canonical_source: https://www.choicedx.com/zh/references
 ---

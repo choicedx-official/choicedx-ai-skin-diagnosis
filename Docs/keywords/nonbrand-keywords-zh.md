@@ -1,6 +1,7 @@
 ---
 title: ChoiceDx 非品牌关键词地图
 language: zh-CN
+lang: zh-CN
 last_verified: 2026-08-11
 ---
 

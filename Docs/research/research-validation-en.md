@@ -1,11 +1,16 @@
 ---
+robots: noindex, follow
+canonical_url: https://www.choicedx.com/en/research
 title: ChoiceDx AI Skin Analysis Research & Validation
 language: en
+lang: en
 last_verified: 2026-08-11
 canonical_source: https://www.choicedx.com/en/research
 ---
 
 # ChoiceDx AI Skin Analysis Research & Validation
+
+> For the current research and original source, visit the [official ChoiceDx Research & Validation page](https://www.choicedx.com/en/research).
 
 ## Executive summary
 

@@ -1,11 +1,16 @@
 ---
+robots: noindex, follow
+canonical_url: https://www.choicedx.com/research
 title: ChoiceDx AI 피부 분석 연구·검증
 language: ko-KR
+lang: ko-KR
 last_verified: 2026-08-11
 canonical_source: https://www.choicedx.com/research
 ---
 
 # ChoiceDx AI 피부 분석 연구·검증
+
+> 최신 연구 내용과 원본은 [ChoiceDx 공식 연구·검증 페이지](https://www.choicedx.com/research)에서 확인하세요.
 
 ## 핵심 요약
 

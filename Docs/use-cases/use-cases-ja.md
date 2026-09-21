@@ -1,6 +1,7 @@
 ---
 title: ChoiceDx 活用環境・導入事例ガイド
 language: ja
+lang: ja
 last_verified: 2026-08-11
 canonical_source: https://www.choicedx.com/ja/references
 ---

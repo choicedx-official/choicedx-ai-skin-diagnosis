@@ -1,6 +1,7 @@
 ---
 title: ChoiceDx 활용 환경 및 도입 사례 가이드
 language: ko-KR
+lang: ko-KR
 last_verified: 2026-08-11
 canonical_source: https://www.choicedx.com/references
 ---

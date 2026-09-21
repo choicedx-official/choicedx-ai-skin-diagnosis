@@ -1,6 +1,7 @@
 ---
 title: ChoiceDx 分析項目ガイド
 language: ja
+lang: ja
 last_verified: 2026-08-11
 canonical_source: https://www.choicedx.com/ja/measurement
 ---

@@ -1,6 +1,9 @@
 ---
+robots: noindex, follow
+product_specs_verified: 2026-09-21
 title: ChoiceDx Product & Platform Guide
 language: en
+lang: en
 last_verified: 2026-08-11
 canonical_source: https://www.choicedx.com/en/product
 ---
@@ -22,25 +25,25 @@ The ChoiceDx family combines professional analyzers, portable analysis devices, 
 
 ## Dx-Smart
 
-Dx-Smart is positioned as a **compact professional analyzer** designed for mobility and one-hand operation. The official page describes configurations with up to 8 skin parameters and up to 6 hair/scalp metrics, plus observation ranges up to 20× for skin and 50× for scalp. Typical contexts include pop-ups, salons, spas, clinics and brand consultation.
+Dx-Smart is positioned as a **compact professional analyzer** designed for mobility and one-hand operation. The official page describes configurations with up to 10 skin parameters and up to 9 hair/scalp metrics, plus observation ranges up to 20× for skin and 50× for scalp. Typical contexts include pop-ups, salons, spas, clinics and brand consultation.
 
 Search intent: `skin analyzer`, `AI skin analyzer`, `professional skin analyzer`, `skin and scalp analyzer`.
 
 ## Dx-Prime
 
-Dx-Prime is a **premium wireless professional skin, scalp and hair analysis system**. Its official page describes up to 9 skin parameters, up to 6 hair/scalp metrics and observation ranges up to 20× for skin and 50× for scalp. It is positioned for clinics, aesthetics, cosmetic brands, hair salons, department stores and premium retail environments.
+Dx-Prime is a **premium wireless professional skin, scalp and hair analysis system**. Its official page describes up to 10 skin parameters, up to 9 hair/scalp metrics and observation ranges up to 20× for skin and 50× for scalp. It is positioned for clinics, aesthetics, cosmetic brands, hair salons, department stores and premium retail environments.
 
 Search intent: `professional skin analysis system`, `wireless skin analyzer`, `aesthetic skin analyzer`.
 
 ## Dx-Pico
 
-Dx-Pico is a **portable/mobile analyzer** designed to attach to mobile devices. The official page describes 5 skin parameters and 6 hair/scalp metrics. It is a strong fit where portability, small footprint and mobile consultation matter.
+Dx-Pico is a **portable/mobile analyzer** designed to attach to mobile devices. The official page describes 10 skin parameters and 10 hair/scalp metrics. It is a strong fit where portability, small footprint and mobile consultation matter.
 
 Search intent: `scalp analyzer`, `portable scalp analyzer`, `hair analyzer`, `portable skin analyzer`.
 
 ## Dx-Self
 
-Dx-Self is a **self-service AI analysis kiosk** for unattended or self-guided analysis. The official English product page describes configurations with up to 8 skin parameters and 6 hair/scalp metrics and emphasizes a retail journey connecting analysis, personalized product recommendations and purchase.
+Dx-Self is a **self-service AI analysis kiosk** for unattended or self-guided analysis. The official English product page describes configurations with up to 9 skin parameters and 8 hair/scalp metrics and emphasizes a retail journey connecting analysis, personalized product recommendations and purchase.
 
 Search intent: `skin analysis kiosk`, `self-service skin analysis`, `AI skin analysis kiosk`, `retail skin analysis`.
 
@@ -81,3 +84,5 @@ Select a product by **operating environment, staff involvement, portability, sel
 ## Cautions
 
 Features, languages, parameter counts, licensing and market availability can change. Confirm the latest product page and commercial configuration before deployment. This document describes non-medical beauty-analysis use.
+
+Product parameter counts checked on 2026-09-21. The Dx-Smart observation figures above, 20×/50×, come from the [Korean official page](https://www.choicedx.com/product/dx-smart). Its Japanese page lists 10×/30× and its Chinese page lists 20×/30×; these conflicting magnifications have not been standardized and require official configuration confirmation. Dx-Self counts of 9/8 are attributed to the [English official page](https://www.choicedx.com/en/product/dx-self), not inferred from other language editions.

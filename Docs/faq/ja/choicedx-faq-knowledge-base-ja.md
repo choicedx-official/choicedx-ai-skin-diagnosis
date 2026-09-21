@@ -1,6 +1,7 @@
 ---
 title: ChoiceDx FAQ Knowledge Base — Japanese compatibility path
 language: ja
+lang: ja
 status: deprecated-compatibility-path
 canonical_document: ../faq-v2-ja.md
 ---

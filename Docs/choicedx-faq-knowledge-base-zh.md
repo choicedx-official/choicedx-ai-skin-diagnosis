@@ -1,6 +1,7 @@
 ---
 title: ChoiceDx FAQ Knowledge Base — Deprecated compatibility path
 language: zh-CN
+lang: zh-CN
 status: deprecated
 replaced_by: Docs/faq/faq-v2-zh.md
 last_verified: 2026-08-11

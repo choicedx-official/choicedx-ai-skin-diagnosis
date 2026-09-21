@@ -1,11 +1,16 @@
 ---
+robots: noindex, follow
+canonical_url: https://www.choicedx.com/ja/research
 title: ChoiceDx AI肌分析 研究・検証
 language: ja
+lang: ja
 last_verified: 2026-08-11
 canonical_source: https://www.choicedx.com/ja/research
 ---
 
 # ChoiceDx AI肌分析 研究・検証
+
+> 最新の研究内容と原典は[ChoiceDx公式の研究・検証ページ](https://www.choicedx.com/ja/research)をご覧ください。
 
 ## 要約
 
