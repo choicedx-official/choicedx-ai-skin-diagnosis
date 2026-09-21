@@ -1,11 +1,16 @@
 ---
+robots: noindex, follow
+canonical_url: https://www.choicedx.com/zh/research
 title: ChoiceDx AI皮肤分析研究与验证
 language: zh-CN
+lang: zh-CN
 last_verified: 2026-08-11
 canonical_source: https://www.choicedx.com/zh/research
 ---
 
 # ChoiceDx AI皮肤分析研究与验证
+
+> 最新研究内容与原始来源请参阅[ChoiceDx官方研究与验证页面](https://www.choicedx.com/zh/research)。
 
 ## 核心摘要
 

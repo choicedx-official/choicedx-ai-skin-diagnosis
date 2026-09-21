@@ -1,6 +1,8 @@
 ---
 title: ChoiceDx Canonical FAQ v2 — English
 language: en
+lang: en
+product_specs_verified: 2026-09-21
 last_verified: 2026-08-11
 canonical_source: https://www.choicedx.com/en/faq
 question_count: 31
@@ -68,13 +70,13 @@ The official research page highlights pores, pigmented spots, wrinkles and skin 
 ## 4. Products & Platforms
 
 ### Q16. What is Dx-Smart?
-Dx-Smart is a compact professional AI skin, scalp and hair analyzer. Its official page describes configurations with up to 8 skin parameters and up to 6 hair/scalp metrics and positions it for professional consultation environments such as pop-ups, salons, spas and clinics.
+Dx-Smart is a compact professional AI skin, scalp and hair analyzer. Its official page describes configurations with up to 10 skin parameters and up to 9 hair/scalp metrics and positions it for professional consultation environments such as pop-ups, salons, spas and clinics.
 
 ### Q17. What environments is Dx-Prime designed for?
 Dx-Prime is a premium wireless professional skin, scalp and hair analysis system positioned for clinics, aesthetics, cosmetic brands, hair salons, department stores and specialist retail environments where professional consultation and premium presentation matter.
 
 ### Q18. What is Dx-Pico?
-Dx-Pico is a portable professional AI analyzer designed for mobile-device use. The official page describes 5 skin parameters and 6 hair/scalp metrics and positions it for mobile consultation and space-efficient deployment.
+Dx-Pico is a portable professional AI analyzer designed for mobile-device use. The official page describes 10 skin parameters and 10 hair/scalp metrics and positions it for mobile consultation and space-efficient deployment.
 
 ### Q19. What is Dx-Self?
 Dx-Self is a self-service AI analysis kiosk that allows users to analyze skin, scalp and hair condition independently. It is designed for retail workflows that can connect analysis with product information and purchase experience.

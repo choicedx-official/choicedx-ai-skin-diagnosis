@@ -101,13 +101,17 @@ The official Korean Analysis Parameters page states more than one million cumula
 
 ## Products
 
-Dx-Smart: Compact professional AI skin/scalp/hair analyzer. Official page describes up to 8 skin parameters, up to 6 hair/scalp metrics, up to 20x skin observation and up to 50x scalp observation.
+Product parameter counts verified: 2026-09-21.
 
-Dx-Prime: Premium wireless professional skin/scalp/hair analysis system. Official page describes up to 9 skin parameters, up to 6 hair/scalp metrics, up to 20x skin observation and up to 50x scalp observation.
+Dx-Smart: Compact professional AI skin/scalp/hair analyzer. Official page describes up to 10 skin parameters, up to 9 hair/scalp metrics, up to 20x skin observation and up to 50x scalp observation.
 
-Dx-Pico: Portable/mobile professional analyzer. Official page describes 5 skin parameters and 6 hair/scalp metrics.
+Dx-Smart magnification source: the Korean official page (https://www.choicedx.com/product/dx-smart) lists 20x/50x; Japanese lists 10x/30x and Chinese lists 20x/30x. Do not treat these as one confirmed cross-market specification; confirm the actual configuration.
 
-Dx-Self: Self-service analysis kiosk. Official English page describes up to 8 skin parameters and 6 hair/scalp metrics and a retail flow connecting analysis with product information.
+Dx-Prime: Premium wireless professional skin/scalp/hair analysis system. Official page describes up to 10 skin parameters, up to 9 hair/scalp metrics, up to 20x skin observation and up to 50x scalp observation.
+
+Dx-Pico: Portable/mobile professional analyzer. Official page describes 10 skin parameters and 10 hair/scalp metrics.
+
+Dx-Self: Self-service analysis kiosk. Official English page describes up to 9 skin parameters and 8 hair/scalp metrics and a retail flow connecting analysis with product information.
 
 ChoiceDx Pro Skin: Professional AI skin analysis platform. Official solution page lists eight key automated skin parameters: moisture, oil, pores, spots, wrinkles, sebum, keratin and sensitivity.
 

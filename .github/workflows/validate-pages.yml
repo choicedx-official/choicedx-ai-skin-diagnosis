@@ -1,0 +1,26 @@
+name: Validate Pages documents
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Validate repository and Markdown policy
+        run: |
+          python3 tools/validate_repository.py
+          python3 tools/validate_markdown_pages.py
+      - name: Build with the GitHub Pages Jekyll runtime
+        uses: actions/jekyll-build-pages@44a6e6beabd48582f863aeeb6cb2151cc1716697 # v1
+        with:
+          source: ./
+          destination: ./_site
+      - name: Verify rendered HTML and preserved static pages
+        run: python3 tools/validate_markdown_pages.py --site _site

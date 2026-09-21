@@ -1,6 +1,7 @@
 ---
 title: ChoiceDx FAQ Knowledge Base — English compatibility path
 language: en
+lang: en
 status: deprecated-compatibility-path
 canonical_document: ../faq-v2-en.md
 ---

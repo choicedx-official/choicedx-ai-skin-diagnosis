@@ -1,6 +1,7 @@
 ---
 title: ChoiceDx Non-Brand Keyword Map
 language: en
+lang: en
 last_verified: 2026-08-11
 ---
 

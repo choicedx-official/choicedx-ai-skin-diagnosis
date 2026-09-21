@@ -1,6 +1,7 @@
 ---
 title: ChoiceDx Use Cases & Deployment Environments
 language: en
+lang: en
 last_verified: 2026-08-11
 canonical_source: https://www.choicedx.com/en/references
 ---

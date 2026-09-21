@@ -1,6 +1,7 @@
 ---
 title: ChoiceDx FAQ Knowledge Base — Chinese compatibility path
 language: zh-CN
+lang: zh-CN
 status: deprecated-compatibility-path
 canonical_document: ../faq-v2-zh.md
 ---

@@ -1,6 +1,7 @@
 ---
 title: ChoiceDx FAQ Knowledge Base — Deprecated compatibility path
 language: en
+lang: en
 status: deprecated
 replaced_by: Docs/faq/faq-v2-en.md
 last_verified: 2026-08-11

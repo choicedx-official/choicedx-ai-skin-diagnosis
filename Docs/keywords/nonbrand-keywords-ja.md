@@ -1,6 +1,7 @@
 ---
 title: ChoiceDx 非ブランドキーワードマップ
 language: ja
+lang: ja
 last_verified: 2026-08-11
 ---
 

@@ -1,5 +1,23 @@
 # ChoiceDx Knowledge Hub Changelog
 
+## 2026-09-21 — Phase 2 Markdown document cleanup
+
+- Add `noindex, follow` only to the four Research and four product guide documents.
+  Research uses language-matched official canonicals and visible source links;
+  product guides retain their generated GitHub Pages self-canonicals.
+- Override Primer 0.6.0's default layout with `page.lang`, then `site.lang`, then
+  `en-US`. Add matching `lang` metadata to all 32 localized Markdown sources.
+- Refresh verified hardware counts in product guides, FAQ v2, product JSON and
+  `llms-full.txt`: Smart 10/9, Prime 10/9, Pico 10/10, Self 9/8 (English source).
+- Preserve the software-specific eight-parameter Pro Skin description. Attribute
+  Smart magnification to the Korean source and flag differing Japanese/Chinese
+  official values without inventing a universal replacement specification.
+- Add source and rendered-page checks using the GitHub Pages Jekyll runtime.
+- Preserve all 33 existing static HTML files, robots.txt, sitemap.xml, the phase 1
+  migration policy and the indexing policy of the other 40 Markdown documents.
+- Save the pre-change commit `da76549712b9f363f36839d724a32ecb8b3d6bf7` on
+  `backup-before-phase2-2026-09-21`.
+
 ## 2026-09-21 — Phase 1 legacy search cleanup
 
 - Keep 12 existing Research and combined product guide URLs; replace instant meta

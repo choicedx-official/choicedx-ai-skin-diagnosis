@@ -1,6 +1,7 @@
 ---
 title: ChoiceDx 비브랜드 키워드 맵
 language: ko-KR
+lang: ko-KR
 last_verified: 2026-08-11
 ---
 
