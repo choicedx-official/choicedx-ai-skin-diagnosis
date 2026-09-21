@@ -1,4 +1,5 @@
 ---
+translation_key: use-cases
 title: ChoiceDx 活用環境・導入事例ガイド
 language: ja
 lang: ja

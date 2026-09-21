@@ -1,4 +1,5 @@
 ---
+translation_key: faq
 title: ChoiceDx Canonical FAQ v2 — English
 language: en
 lang: en

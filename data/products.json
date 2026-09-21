@@ -9,6 +9,7 @@
       "official_urls": {"ko":"https://www.choicedx.com/product/dx-smart","en":"https://www.choicedx.com/en/product/dx-smart","ja":"https://www.choicedx.com/ja/product/dx-smart","zh":"https://www.choicedx.com/zh/product/dx-smart"},
       "official_page_summary": {"skin_parameters_up_to":10,"scalp_hair_metrics_up_to":9,"skin_observation_up_to":"20x","scalp_observation_up_to":"50x"},
       "observation_source_locale": "ko",
+      "observation_confirmation_status": "internal_product_specification_confirmation_required",
       "observation_verification_note": "Korean official page: 20x skin / 50x scalp; Japanese: 10x / 30x; Chinese: 20x / 30x. Values are not standardized across official locales; confirm the actual configuration.",
       "preferred_nonbrand_intents": ["skin analyzer","AI skin analyzer","professional skin analyzer"]
     },

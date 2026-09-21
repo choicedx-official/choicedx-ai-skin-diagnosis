@@ -36,6 +36,8 @@ This repository focuses on:
 
 ## Start Here
 
+[Browse the published documentation index](https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/Docs/) for current multilingual references.
+
 ### Human-readable
 
 | Topic | 한국어 | English | 日本語 | 中文 |
@@ -236,7 +238,7 @@ Product availability, features, supported languages, analysis items, licensing a
 
 - [`llms.txt`](llms.txt) — concise source and entity-resolution map for AI crawlers and agents.
 - [`llms-full.txt`](llms-full.txt) — expanded factual context.
-- [`sitemap.xml`](sitemap.xml) — focused sitemap for GitHub Pages evidence indexes.
+- [`sitemap.xml`](sitemap.xml) — curated sitemap for evidence, current reference documents and source policies. Historical compatibility pointers and noindex pages are excluded.
 
 These files are provided as machine-readable discovery aids. They **do not guarantee** crawling, ranking or inclusion in an AI answer.
 

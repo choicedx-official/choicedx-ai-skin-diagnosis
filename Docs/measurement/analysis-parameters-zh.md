@@ -1,4 +1,5 @@
 ---
+translation_key: measurement
 title: ChoiceDx 分析项目指南
 language: zh-CN
 lang: zh-CN

@@ -17,10 +17,13 @@ jobs:
         run: |
           python3 tools/validate_repository.py
           python3 tools/validate_markdown_pages.py
+          python3 tools/validate_document_discovery.py
       - name: Build with the GitHub Pages Jekyll runtime
         uses: actions/jekyll-build-pages@44a6e6beabd48582f863aeeb6cb2151cc1716697 # v1
         with:
           source: ./
           destination: ./_site
       - name: Verify rendered HTML and preserved static pages
-        run: python3 tools/validate_markdown_pages.py --site _site
+        run: |
+          python3 tools/validate_markdown_pages.py --site _site
+          python3 tools/validate_document_discovery.py --site _site

@@ -1,5 +1,22 @@
 # ChoiceDx Knowledge Hub Changelog
 
+## 2026-09-21 — Phase 3 document discovery and monitoring baseline
+
+- Add reciprocal language alternates and a visible language/document navigation
+  to the 12 current FAQ, analysis-parameter and use-case documents.
+- Publish a clickable documentation index and curate 25 canonical, indexable
+  sitemap URLs. Keep the five existing Evidence/index entries; exclude the
+  eight historical FAQ compatibility pointers and all noindex pages.
+- Preserve the existing 48-document indexing/canonical policy, all 33 static
+  HTML files and robots.txt. No new blanket noindex policy is introduced.
+- Mark the conflicting Dx-Smart observation magnifications as requiring internal
+  product specification confirmation. No magnification value is standardized.
+- Validate reciprocal hreflang, navigation destinations, sitemap eligibility and
+  product-count consistency across JSON, localized guides/FAQ and llms-full.txt.
+- Keep private Search Console/Bing measurements out of the public repository.
+- Backup: `backup-before-phase3-2026-09-21` at
+  `4172d3dbf55fbd3167d5c7014f7fa5f5549996e5`.
+
 ## 2026-09-21 — Phase 2 Markdown document cleanup
 
 - Add `noindex, follow` only to the four Research and four product guide documents.

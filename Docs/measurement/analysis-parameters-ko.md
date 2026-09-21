@@ -1,4 +1,5 @@
 ---
+translation_key: measurement
 title: ChoiceDx 분석 항목 가이드
 language: ko-KR
 lang: ko-KR

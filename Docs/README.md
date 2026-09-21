@@ -1,48 +1,43 @@
 # ChoiceDx Documentation Index
 
-Last verified: 2026-08-11
+Navigation updated: 2026-09-21. Source facts retain their own verification dates.
 
-This directory contains the human-readable source layer for ChoiceDx structured evidence and entity disambiguation.
+ChoiceDx documentation provides terminology, source context and structured references. Current product specifications, research and commercial information are maintained on the [official ChoiceDx website](https://www.choicedx.com/).
 
-## Directory map
+## Current multilingual documents
 
-```text
-Docs/
-├─ entity/
-│  ├─ choice-dx-entity.md
-│  ├─ entity-disambiguation.md
-│  └─ terminology-policy.md
-├─ research/
-│  └─ research-validation-{ko,en,ja,zh}.md
-├─ measurement/
-│  └─ analysis-parameters-{ko,en,ja,zh}.md
-├─ products/
-│  └─ product-guide-{ko,en,ja,zh}.md
-├─ use-cases/
-│  └─ use-cases-{ko,en,ja,zh}.md
-├─ keywords/
-│  └─ nonbrand-keywords-{ko,en,ja,zh}.md
-├─ faq/
-│  └─ faq-v2-{ko,en,ja,zh}.md
-├─ migration/
-│  ├─ deprecated-terms.md
-│  └─ legacy-pages-canonical-policy.md
-└─ official-url-map.md
-```
+| Topic | 한국어 | English | 日本語 | 中文（简体） |
+|---|---|---|---|---|
+| Frequently asked questions | [한국어](https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/Docs/faq/faq-v2-ko.html) | [English](https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/Docs/faq/faq-v2-en.html) | [日本語](https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/Docs/faq/faq-v2-ja.html) | [中文（简体）](https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/Docs/faq/faq-v2-zh.html) |
+| Analysis terminology and parameters | [한국어](https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/Docs/measurement/analysis-parameters-ko.html) | [English](https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/Docs/measurement/analysis-parameters-en.html) | [日本語](https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/Docs/measurement/analysis-parameters-ja.html) | [中文（简体）](https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/Docs/measurement/analysis-parameters-zh.html) |
+| Use-case taxonomy | [한국어](https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/Docs/use-cases/use-cases-ko.html) | [English](https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/Docs/use-cases/use-cases-en.html) | [日本語](https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/Docs/use-cases/use-cases-ja.html) | [中文（简体）](https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/Docs/use-cases/use-cases-zh.html) |
 
-## Editorial principle
+## Evidence and entity references
 
-The official ChoiceDx website is the primary source for current commercial content. These documents normalize facts, entity relationships, search terminology and source routing for verification, retrieval and AI-readable use.
+- [Evidence source index](https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/outputs/index.html)
+- [ChoiceDx entity definition](https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/Docs/entity/choice-dx-entity.html)
+- [ChoiceDx and ChoiceTech Korea: entity relationships](https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/Docs/entity/entity-disambiguation.html)
+- [Terminology policy](https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/Docs/entity/terminology-policy.html)
+- [Source policy](https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/SOURCE_POLICY.html)
+- [Content policy](https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/CONTENT_POLICY.html)
 
-## Entity rule
+## Current official sources
 
-- ChoiceTech Korea = company / developer / manufacturer / operator.
-- ChoiceDx = AI skin, scalp and hair analysis solution brand.
-- Non-brand analysis and analyzer intent should route to ChoiceDx official pages.
-- Corporate/manufacturer intent should route to ChoiceTech Korea.
+| Topic | 한국어 | English | 日本語 | 中文 |
+|---|---|---|---|---|
+| Research and validation | [한국어](https://www.choicedx.com/research) | [English](https://www.choicedx.com/en/research) | [日本語](https://www.choicedx.com/ja/research) | [中文（简体）](https://www.choicedx.com/zh/research) |
+| Products | [한국어](https://www.choicedx.com/product) | [English](https://www.choicedx.com/en/product) | [日本語](https://www.choicedx.com/ja/product) | [中文（简体）](https://www.choicedx.com/zh/product) |
 
-See `entity/entity-disambiguation.md` for the full rule set.
+## Editorial and structured references
 
-## Legacy FAQ compatibility
+- Search-intent routing: [한국어](https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/Docs/keywords/nonbrand-keywords-ko.html) · [English](https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/Docs/keywords/nonbrand-keywords-en.html) · [日本語](https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/Docs/keywords/nonbrand-keywords-ja.html) · [中文（简体）](https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/Docs/keywords/nonbrand-keywords-zh.html)
+- [Official URL map](https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/Docs/official-url-map.html)
+- [Structured data index](https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/data/)
 
-The root-level `choicedx-faq-knowledge-base-*.md` files are retained only as compatibility pointers. Current FAQ knowledge is maintained in `Docs/faq/faq-v2-*.md`.
+## Historical FAQ paths
+
+The eight historical FAQ paths are compatibility pointers. Use the current FAQ documents above for answers; the old paths remain available for existing links. Their indexing policy is unchanged pending URL-level traffic and backlink review.
+
+## Source maintenance
+
+Product facts should be checked against the current official page, with the source and verification date recorded in `data/products.json`. FAQ, product-guide and `llms-full.txt` parameter counts are checked against that dataset in CI. An internal product specification confirmation is still required for Dx-Smart magnification: official language pages differ. Do not standardize those values without an approved specification.

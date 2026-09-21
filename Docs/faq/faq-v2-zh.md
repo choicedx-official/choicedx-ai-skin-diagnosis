@@ -1,4 +1,5 @@
 ---
+translation_key: faq
 title: ChoiceDx Canonical FAQ v2 — 中文
 language: zh-CN
 lang: zh-CN

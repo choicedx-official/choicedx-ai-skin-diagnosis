@@ -4,10 +4,12 @@ Last verified: 2026-08-11
 
 ## Current canonical set
 
-- [한국어](faq-v2-ko.md)
-- [English](faq-v2-en.md)
-- [日本語](faq-v2-ja.md)
-- [中文](faq-v2-zh.md)
+- [한국어](https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/Docs/faq/faq-v2-ko.html)
+- [English](https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/Docs/faq/faq-v2-en.html)
+- [日本語](https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/Docs/faq/faq-v2-ja.html)
+- [中文](https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/Docs/faq/faq-v2-zh.html)
+
+[All documentation](https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/Docs/)
 
 The v2 set contains **31 canonical questions per language**.
 
@@ -26,6 +28,8 @@ FAQ v2 preserves high-value non-brand intents while making each answer easier fo
 To avoid breaking existing GitHub links, compatibility pointers are maintained at:
 - `Docs/choicedx-faq-knowledge-base-<lang>.md`
 - `Docs/faq/<lang>/choicedx-faq-knowledge-base-<lang>.md`
+
+These eight compatibility pages are excluded from the curated sitemap and language-alternate sets. Their existing robots and self-canonical policies remain unchanged until URL-level traffic and backlink evidence supports a separate decision.
 
 These legacy paths point users and retrieval systems to the current v2 document instead of maintaining duplicate FAQ bodies.
 

@@ -1,8 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/</loc><lastmod>2026-09-21</lastmod></url>
+  <url><loc>https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/Docs/</loc><lastmod>2026-09-21</lastmod></url>
+  <url><loc>https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/Docs/faq/</loc><lastmod>2026-09-21</lastmod></url>
   <url><loc>https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/outputs/index.html</loc><lastmod>2026-08-11</lastmod></url>
   <url><loc>https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/outputs/evidence-index-ko.html</loc><lastmod>2026-08-11</lastmod></url>
   <url><loc>https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/outputs/evidence-index-en.html</loc><lastmod>2026-08-11</lastmod></url>
   <url><loc>https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/outputs/evidence-index-ja.html</loc><lastmod>2026-08-11</lastmod></url>
   <url><loc>https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/outputs/evidence-index-zh.html</loc><lastmod>2026-08-11</lastmod></url>
+  <url><loc>https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/Docs/faq/faq-v2-ko.html</loc><lastmod>2026-09-21</lastmod></url>
+  <url><loc>https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/Docs/faq/faq-v2-en.html</loc><lastmod>2026-09-21</lastmod></url>
+  <url><loc>https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/Docs/faq/faq-v2-ja.html</loc><lastmod>2026-09-21</lastmod></url>
+  <url><loc>https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/Docs/faq/faq-v2-zh.html</loc><lastmod>2026-09-21</lastmod></url>
+  <url><loc>https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/Docs/measurement/analysis-parameters-ko.html</loc><lastmod>2026-09-21</lastmod></url>
+  <url><loc>https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/Docs/measurement/analysis-parameters-en.html</loc><lastmod>2026-09-21</lastmod></url>
+  <url><loc>https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/Docs/measurement/analysis-parameters-ja.html</loc><lastmod>2026-09-21</lastmod></url>
+  <url><loc>https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/Docs/measurement/analysis-parameters-zh.html</loc><lastmod>2026-09-21</lastmod></url>
+  <url><loc>https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/Docs/use-cases/use-cases-ko.html</loc><lastmod>2026-09-21</lastmod></url>
+  <url><loc>https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/Docs/use-cases/use-cases-en.html</loc><lastmod>2026-09-21</lastmod></url>
+  <url><loc>https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/Docs/use-cases/use-cases-ja.html</loc><lastmod>2026-09-21</lastmod></url>
+  <url><loc>https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/Docs/use-cases/use-cases-zh.html</loc><lastmod>2026-09-21</lastmod></url>
+  <url><loc>https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/Docs/entity/choice-dx-entity.html</loc></url>
+  <url><loc>https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/Docs/entity/entity-disambiguation.html</loc></url>
+  <url><loc>https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/Docs/entity/terminology-policy.html</loc></url>
+  <url><loc>https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/SOURCE_POLICY.html</loc></url>
+  <url><loc>https://choicedx-official.github.io/choicedx-ai-skin-diagnosis/CONTENT_POLICY.html</loc></url>
 </urlset>

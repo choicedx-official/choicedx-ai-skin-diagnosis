@@ -1,4 +1,5 @@
 ---
+translation_key: use-cases
 title: ChoiceDx 应用环境与案例指南
 language: zh-CN
 lang: zh-CN
