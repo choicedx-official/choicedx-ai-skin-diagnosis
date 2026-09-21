@@ -2,9 +2,14 @@
 
 > Official structured knowledge layer for **ChoiceDx**, the AI skin, scalp and hair **analysis solution brand** developed and operated by **ChoiceTech Korea**.
 
-**Primary website:** https://www.choicedx.com/  
+**Official website:** https://www.choicedx.com/
+
+**Research & Validation:** https://www.choicedx.com/research
+
 **Last verified:** 2026-08-11  
 **Languages:** 한국어 · English · 日本語 · 中文
+
+For the latest product information, research, references and official documentation, please visit https://www.choicedx.com/.
 
 ---
 
@@ -210,8 +215,9 @@ See [`SOURCE_POLICY.md`](SOURCE_POLICY.md).
 - **ChoiceDx.com is the primary owned-content domain.**
 - GitHub should not create a second commercial article competing for the same query.
 - GitHub Pages evidence indexes provide unique source navigation rather than duplicate commercial landing copy.
-- Historical GitHub Pages with a clear current replacement use an **instant 0-second meta-refresh migration** and matching `rel="canonical"` to the closest existing localized ChoiceDx page.
-- Legacy redirect destinations are language-matched and topic-specific.
+- Phase 1 (2026-09-21) retains the 12 Research and combined product guide HTML URLs with `noindex, follow`, the verified language-matched official canonical, and a visible official link. These pages do not use automatic redirects.
+- The combined product guide keeps the official product hub canonical and links directly to Dx-Smart and Dx-Pico. No standalone product HTML is created.
+- Other historical pages and structured knowledge documents remain outside this first rollout. Keep affected URLs crawlable so search engines can read `noindex`.
 - Do not canonicalize or redirect to a URL that does not exist.
 
 See [`Docs/migration/legacy-pages-canonical-policy.md`](Docs/migration/legacy-pages-canonical-policy.md).

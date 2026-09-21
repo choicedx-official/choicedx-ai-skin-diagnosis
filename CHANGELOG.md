@@ -1,5 +1,17 @@
 # ChoiceDx Knowledge Hub Changelog
 
+## 2026-09-21 — Phase 1 legacy search cleanup
+
+- Keep 12 existing Research and combined product guide URLs; replace instant meta
+  refresh with `noindex, follow`, verified localized official canonicals and visible links.
+- Keep `/product` as the combined guide destination and add direct official Dx-Smart
+  and Dx-Pico links. Do not create independent product pages.
+- Strengthen the README's official website and Research links; document the phased policy.
+- Preserve robots.txt, the sitemap (these URLs were already absent), all other HTML,
+  reference Markdown, structured data and assets. The official website is unchanged.
+- Save the pre-change commit `2d00810cff741c66300bedaa78c322431749d858` on
+  `backup-before-seo-cleanup-2026-09-21` before editing.
+
 ## 2026-08-11 — v2.1 SEO/GEO Hardening
 
 ### Entity & GEO
