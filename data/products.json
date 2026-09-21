@@ -50,7 +50,7 @@
       "name": "DxPro Skin 2",
       "type": "second-generation professional AI skin analysis system",
       "release_url": "https://www.choicedx.com/post/dxpro-skin-2-ai-skin-analysis-launch",
-      "official_release_summary": {"company_reported_performance_improvement":">20% vs prior company system","qualification":"Company-reported comparative performance improvement, not a universal absolute accuracy guarantee.","features":["skin-type-specific refinement","scoring","custom branding","30 languages including Arabic and Hebrew"]}
+      "official_release_summary": {"company_reported_performance_improvement":">=20% vs prior company system","qualification":"Company-reported comparative performance improvement, not a universal absolute accuracy guarantee.","features":["skin-type-specific refinement","scoring","custom branding","30 languages including Arabic and Hebrew"]}
     },
     {
       "name": "DxPro Hair 2",
