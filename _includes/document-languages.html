@@ -1,0 +1,11 @@
+{% if page.translation_key %}
+{% assign document_group = site.data.document_discovery.groups | where: "key", page.translation_key | first %}
+{% assign current_document = document_group.pages | where: "source", page.path | first %}
+<nav aria-label="{{ current_document.navigation_label | escape }}" class="mb-4">
+  <a href="{{ '/Docs/' | relative_url }}">{{ current_document.index_label }}</a>
+  <span aria-hidden="true"> · </span>
+  {% for alternate in document_group.pages %}
+  <a href="{{ alternate.path | relative_url }}" hreflang="{{ alternate.hreflang | escape }}" lang="{{ alternate.hreflang | escape }}"{% if alternate.source == page.path %} aria-current="page"{% endif %}>{{ alternate.label }}</a>{% unless forloop.last %}<span aria-hidden="true"> · </span>{% endunless %}
+  {% endfor %}
+</nav>
+{% endif %}

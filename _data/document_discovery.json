@@ -1,0 +1,145 @@
+{
+  "groups": [
+    {
+      "key": "faq",
+      "title": "Frequently asked questions",
+      "pages": [
+        {
+          "source": "Docs/faq/faq-v2-ko.md",
+          "path": "/Docs/faq/faq-v2-ko.html",
+          "hreflang": "ko",
+          "label": "한국어",
+          "navigation_label": "언어 선택",
+          "index_label": "문서 목차"
+        },
+        {
+          "source": "Docs/faq/faq-v2-en.md",
+          "path": "/Docs/faq/faq-v2-en.html",
+          "hreflang": "en",
+          "label": "English",
+          "navigation_label": "Language versions",
+          "index_label": "Documentation index"
+        },
+        {
+          "source": "Docs/faq/faq-v2-ja.md",
+          "path": "/Docs/faq/faq-v2-ja.html",
+          "hreflang": "ja",
+          "label": "日本語",
+          "navigation_label": "言語を選択",
+          "index_label": "資料一覧"
+        },
+        {
+          "source": "Docs/faq/faq-v2-zh.md",
+          "path": "/Docs/faq/faq-v2-zh.html",
+          "hreflang": "zh-Hans",
+          "label": "中文（简体）",
+          "navigation_label": "选择语言",
+          "index_label": "文档目录"
+        }
+      ]
+    },
+    {
+      "key": "measurement",
+      "title": "Analysis terminology and parameters",
+      "pages": [
+        {
+          "source": "Docs/measurement/analysis-parameters-ko.md",
+          "path": "/Docs/measurement/analysis-parameters-ko.html",
+          "hreflang": "ko",
+          "label": "한국어",
+          "navigation_label": "언어 선택",
+          "index_label": "문서 목차"
+        },
+        {
+          "source": "Docs/measurement/analysis-parameters-en.md",
+          "path": "/Docs/measurement/analysis-parameters-en.html",
+          "hreflang": "en",
+          "label": "English",
+          "navigation_label": "Language versions",
+          "index_label": "Documentation index"
+        },
+        {
+          "source": "Docs/measurement/analysis-parameters-ja.md",
+          "path": "/Docs/measurement/analysis-parameters-ja.html",
+          "hreflang": "ja",
+          "label": "日本語",
+          "navigation_label": "言語を選択",
+          "index_label": "資料一覧"
+        },
+        {
+          "source": "Docs/measurement/analysis-parameters-zh.md",
+          "path": "/Docs/measurement/analysis-parameters-zh.html",
+          "hreflang": "zh-Hans",
+          "label": "中文（简体）",
+          "navigation_label": "选择语言",
+          "index_label": "文档目录"
+        }
+      ]
+    },
+    {
+      "key": "use-cases",
+      "title": "Use-case taxonomy",
+      "pages": [
+        {
+          "source": "Docs/use-cases/use-cases-ko.md",
+          "path": "/Docs/use-cases/use-cases-ko.html",
+          "hreflang": "ko",
+          "label": "한국어",
+          "navigation_label": "언어 선택",
+          "index_label": "문서 목차"
+        },
+        {
+          "source": "Docs/use-cases/use-cases-en.md",
+          "path": "/Docs/use-cases/use-cases-en.html",
+          "hreflang": "en",
+          "label": "English",
+          "navigation_label": "Language versions",
+          "index_label": "Documentation index"
+        },
+        {
+          "source": "Docs/use-cases/use-cases-ja.md",
+          "path": "/Docs/use-cases/use-cases-ja.html",
+          "hreflang": "ja",
+          "label": "日本語",
+          "navigation_label": "言語を選択",
+          "index_label": "資料一覧"
+        },
+        {
+          "source": "Docs/use-cases/use-cases-zh.md",
+          "path": "/Docs/use-cases/use-cases-zh.html",
+          "hreflang": "zh-Hans",
+          "label": "中文（简体）",
+          "navigation_label": "选择语言",
+          "index_label": "文档目录"
+        }
+      ]
+    }
+  ],
+  "sitemap_paths": [
+    "/",
+    "/Docs/",
+    "/Docs/faq/",
+    "/outputs/index.html",
+    "/outputs/evidence-index-ko.html",
+    "/outputs/evidence-index-en.html",
+    "/outputs/evidence-index-ja.html",
+    "/outputs/evidence-index-zh.html",
+    "/Docs/faq/faq-v2-ko.html",
+    "/Docs/faq/faq-v2-en.html",
+    "/Docs/faq/faq-v2-ja.html",
+    "/Docs/faq/faq-v2-zh.html",
+    "/Docs/measurement/analysis-parameters-ko.html",
+    "/Docs/measurement/analysis-parameters-en.html",
+    "/Docs/measurement/analysis-parameters-ja.html",
+    "/Docs/measurement/analysis-parameters-zh.html",
+    "/Docs/use-cases/use-cases-ko.html",
+    "/Docs/use-cases/use-cases-en.html",
+    "/Docs/use-cases/use-cases-ja.html",
+    "/Docs/use-cases/use-cases-zh.html",
+    "/Docs/entity/choice-dx-entity.html",
+    "/Docs/entity/entity-disambiguation.html",
+    "/Docs/entity/terminology-policy.html",
+    "/SOURCE_POLICY.html",
+    "/CONTENT_POLICY.html"
+  ]
+}

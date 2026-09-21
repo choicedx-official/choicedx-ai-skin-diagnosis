@@ -1,4 +1,5 @@
 ---
+translation_key: use-cases
 title: ChoiceDx Use Cases & Deployment Environments
 language: en
 lang: en

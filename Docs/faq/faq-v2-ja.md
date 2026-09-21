@@ -1,4 +1,5 @@
 ---
+translation_key: faq
 title: ChoiceDx Canonical FAQ v2 — 日本語
 language: ja
 lang: ja

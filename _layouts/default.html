@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 {% seo %}
+    {% if page.translation_key %}
+    {% assign document_group = site.data.document_discovery.groups | where: "key", page.translation_key | first %}
+    {% for alternate in document_group.pages %}
+    <link rel="alternate" hreflang="{{ alternate.hreflang | escape }}" href="{{ alternate.path | absolute_url }}">
+    {% endfor %}
+    {% endif %}
     {% if page.robots %}
     <meta name="robots" content="{{ page.robots | escape }}">
     {% endif %}
@@ -17,6 +23,8 @@
       {% if site.title and site.title != page.title %}
       <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
       {% endif %}
+
+      {% include document-languages.html %}
 
       {{ content }}
 

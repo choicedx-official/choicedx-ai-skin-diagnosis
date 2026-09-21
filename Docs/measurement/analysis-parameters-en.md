@@ -1,4 +1,5 @@
 ---
+translation_key: measurement
 title: ChoiceDx Analysis Parameters Guide
 language: en
 lang: en

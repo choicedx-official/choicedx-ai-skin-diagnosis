@@ -1,4 +1,5 @@
 ---
+translation_key: measurement
 title: ChoiceDx 分析項目ガイド
 language: ja
 lang: ja
